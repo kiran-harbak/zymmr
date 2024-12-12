@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Zymmr"
-  text: "A Project Management"
-  tagline: My great project tagline
+  text: "Smart Project Management"
+  tagline: "An AI-powered solution providing a versatile, smart, and budget-friendly method for managing projects."
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Contact Us
       link: /api-examples
 
 features:
