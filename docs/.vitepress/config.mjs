@@ -13,17 +13,16 @@ export default defineConfig({
       height: 24,
     },
 
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    nav: [{ text: "Home", link: "/" }],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "Introduction",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "Guide for Zymmr User",
+            link: "/introduction/guide-for-zymmr-user",
+          },
         ],
       },
     ],
