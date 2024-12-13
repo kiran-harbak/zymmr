@@ -20,13 +20,66 @@
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
-    90deg,
+    137.5deg,
     var(--c-orange-1) 15%,
     var(--c-pink-1) 35%,
     var(--c-purple-1) 55%,
     var(--c-blue-1) 75%
   );
-  --vp-home-hero-image-filter: blur(40px);
+
+  /* Hero image background effect */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    var(--c-pink-1) 30%,
+    var(--c-purple-1) 70%
+  );
+  --vp-home-hero-image-filter: blur(50px);
+}
+
+/* 
+* Hero Image Background Effect
+* -------------------------------------------------------------------------- */
+:root {
+  /* Image container styles */
+  .VPHero.has-image .container {
+    position: relative;
+    z-index: 10;
+    isolation: isolate;
+  }
+
+  .VPHero.has-image .image-container {
+    position: relative;
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .VPHero.has-image .image-container::before {
+    content: "";
+    position: fixed;
+    inset: -100%;
+    background-image: var(--vp-home-hero-image-background-image);
+    background-position: center;
+    background-size: 200% 200%;
+    filter: var(--vp-home-hero-image-filter);
+    opacity: 0.05;
+    z-index: -1;
+    transform: translateZ(0);
+    pointer-events: none;
+  }
+
+  .VPHero.has-image .image {
+    position: relative;
+    z-index: 1;
+    transform: translateZ(0);
+  }
+
+  /* Ensure container maintains proper stacking context */
+  .VPHero.has-image {
+    position: relative;
+    z-index: 1;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
 }
 
 /**

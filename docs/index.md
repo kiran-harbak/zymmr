@@ -9,6 +9,7 @@ hero:
   image:
     src: "./logo.png"
     alt: "Zymmr Logo"
+    light: true
   actions:
     - theme: brand
       text: Get Started

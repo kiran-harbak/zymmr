@@ -13,7 +13,7 @@ export default defineConfig({
       height: 24,
     },
 
-    nav: [{ text: "Home", link: "/" }],
+    nav: [{ text: "Guide", link: "/introduction/guide-for-zymmr-user" }],
 
     sidebar: [
       {
