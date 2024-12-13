@@ -13,7 +13,16 @@ export default defineConfig({
       height: 24,
     },
 
-    nav: [{ text: "Guide", link: "/introduction/guide-for-zymmr-user" }],
+    nav: [
+      { text: "Guide", link: "/introduction/guide-for-zymmr-user" },
+      {
+        text: "Legal",
+        items: [
+          { text: "Privacy Policy", link: "/privacy-policy" },
+          { text: "Terms of Use", link: "/terms-of-use" },
+        ],
+      },
+    ],
 
     sidebar: [
       {
@@ -33,5 +42,11 @@ export default defineConfig({
       { icon: "youtube", link: "https://www.youtube.com/@zymmr" },
       { icon: "x", link: "https://x.com/ZymmrPM" },
     ],
+
+    footer: {
+      message: "Released under the MIT License.",
+      copyright:
+        "©Copyright 2024. All Rights Reserved - Ziyana Software Private Limited",
+    },
   },
 });
