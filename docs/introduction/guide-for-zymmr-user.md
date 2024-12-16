@@ -1,3 +1,12 @@
+---
+title: Getting Started with Zymmr
+description: A comprehensive guide to getting started with Zymmr's project management features
+head:
+  - - meta
+    - name: keywords
+      content: getting started, guide, tutorial, project management, zymmr setup
+---
+
 # Guide for Zymmr User
 
 Zymmr simplifies project management for scrum and kanban teams. Let's explore how to use Zymmr as an end user, step by step.
