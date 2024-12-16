@@ -31,3 +31,6 @@ pnpm-debug.log*
 
 # Cursor rules
 .cursorrules
+
+# mockups
+mockups/

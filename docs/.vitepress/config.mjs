@@ -34,6 +34,32 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Setup",
+        items: [
+          {
+            text: "Overview",
+            link: "/setup/",
+          },
+          {
+            text: "Installation",
+            link: "/setup/installation",
+          },
+          {
+            text: "Data Migration",
+            link: "/setup/data-migration",
+          },
+        ],
+      },
+      {
+        text: "Guide",
+        items: [
+          {
+            text: "FAQ",
+            link: "/guide/faq",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
