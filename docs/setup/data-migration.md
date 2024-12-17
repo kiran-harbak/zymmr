@@ -61,4 +61,4 @@ We're working on our self-service Data Importer functionality. For now, our team
 
 Have questions about data migration? Our team is ready to help!
 
-[Contact Us](/contact-us) for migration assistance.
+- Visit our [Contact Us](/contact-us) page for more options

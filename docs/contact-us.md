@@ -8,7 +8,8 @@ You can contact us through the following methods:
 
 ### Email
 
-For general inquiries, please email us at [info@ziyanasoftware.com](mailto:info@ziyanasoftware.com).
+- For general inquiries: [info@ziyanasoftware.com](mailto:info@ziyanasoftware.com)
+- For technical support: [support@ziyanasoftware.com](mailto:support@ziyanasoftware.com)
 
 ### Phone
 
