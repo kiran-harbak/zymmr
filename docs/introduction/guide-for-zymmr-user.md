@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: getting started, guide, tutorial, project management, zymmr setup
+outline: deep
 ---
 
 # Guide for Zymmr User

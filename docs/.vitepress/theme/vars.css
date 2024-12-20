@@ -98,20 +98,34 @@
   .vpi-social-github:hover {
     color: #000;
   }
+}
 
-  /* Dark mode styles */
-  @media (prefers-color-scheme: dark) {
-    .vpi-social-youtube:hover {
-      color: #ff0000; /* Bright red for dark mode */
-    }
-    .vpi-social-linkedin:hover {
-      color: #00a0dc; /* Lighter blue for dark mode */
-    }
-    .vpi-social-x:hover {
-      color: #ffffff; /* White for dark mode */
-    }
-    .vpi-social-github:hover {
-      color: #ffffff; /* White for dark mode */
-    }
+.dark {
+  .vpi-social-youtube:hover {
+    color: #ff0000; /* Bright red for dark mode */
+  }
+  .vpi-social-linkedin:hover {
+    color: #00a0dc; /* Lighter blue for dark mode */
+  }
+  .vpi-social-x:hover {
+    color: #ffffff; /* White for dark mode */
+  }
+  .vpi-social-github:hover {
+    color: #ffffff; /* White for dark mode */
+  }
+}
+
+/* 
+* Navigation Icon
+* -------------------------------------------------------------------------- */
+:root {
+  .navigation-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-bottom: 2px;
+    color: black;
   }
 }

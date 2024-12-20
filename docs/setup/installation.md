@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: installation, setup, zymmr, development, docker, prerequisites
+outline: deep
 ---
 
 # Local Installation

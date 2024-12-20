@@ -14,7 +14,7 @@ export default defineConfig({
     },
 
     nav: [
-      { text: "Guide", link: "/introduction/guide-for-zymmr-user" },
+      { text: "Docs", link: "/introduction/guide-for-zymmr-user" },
       {
         text: "Legal",
         items: [
@@ -27,6 +27,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Introduction",
+        collapsed: false,
         items: [
           {
             text: "Guide for Zymmr User",
@@ -36,6 +37,7 @@ export default defineConfig({
       },
       {
         text: "Setup",
+        collapsed: false,
         items: [
           {
             text: "Overview",
@@ -52,7 +54,46 @@ export default defineConfig({
         ],
       },
       {
+        text: "Zymmr Project",
+        collapsed: false,
+        items: [
+          {
+            text: "Overview",
+            link: "/projects/",
+          },
+          {
+            text: "Creating Project",
+            link: "/projects/creating-projects",
+          },
+          {
+            text: "Adding Users",
+            link: "/projects/adding-users",
+          },
+          {
+            text: "Project Permissions",
+            link: "/projects/project-permissions",
+          },
+          {
+            text: "Modules",
+            link: "/projects/modules",
+          },
+          {
+            text: "Milestones",
+            link: "/projects/milestones",
+          },
+          {
+            text: "Releases",
+            link: "/projects/releases",
+          },
+          {
+            text: "Project Settings",
+            link: "/projects/project-settings",
+          },
+        ],
+      },
+      {
         text: "Guide",
+        collapsed: false,
         items: [
           {
             text: "FAQ",
@@ -76,10 +117,10 @@ export default defineConfig({
     },
 
     search: {
-      provider: "local", // Change to `algolia` for production use; registration for Algolia DocSearch is already completed.
+      provider: "algolia",
       options: {
-        appId: "YOUR_APP_ID",
-        apiKey: "YOUR_SEARCH_ONLY_API_KEY",
+        appId: "S5B9CWHHEM",
+        apiKey: "0413e072f85108903d3ea8b4c2064974",
         indexName: "zymmr",
         locales: {
           root: {
