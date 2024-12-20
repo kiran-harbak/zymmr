@@ -99,7 +99,6 @@ Common issues and solutions:
 ::: info Next Steps
 After adding users, you might want to:
 
-- [Configure user permissions](./managing-permissions)
 - [Set up project modules](./modules)
 - [Create project milestones](./milestones)
   :::
