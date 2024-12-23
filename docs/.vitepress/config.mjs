@@ -36,6 +36,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "Zymmr User",
+        collapsed: false,
+        items: [
+          {
+            text: "Login",
+            link: "/user/login",
+          },
+          {
+            text: "Dashboard",
+            link: "/user/dashboard",
+          },
+        ],
+      },
+      {
         text: "Setup",
         collapsed: false,
         items: [
