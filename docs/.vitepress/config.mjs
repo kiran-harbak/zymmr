@@ -106,6 +106,52 @@ export default defineConfig({
         ],
       },
       {
+        text: "Work Items",
+        collapsed: false,
+        items: [
+          {
+            text: "Overview",
+            link: "/work-items/",
+          },
+          {
+            text: "Create Work Item",
+            link: "/work-items/create",
+          },
+          {
+            text: "Update Work Item",
+            link: "/work-items/update",
+          },
+          {
+            text: "Delete Work Item",
+            link: "/work-items/delete",
+          },
+          {
+            text: "Comment on Work Item",
+            link: "/work-items/comment",
+          },
+          {
+            text: "Export Work Items",
+            link: "/work-items/export",
+          },
+          {
+            text: "Manage Work Items",
+            link: "/work-items/manage",
+          },
+          {
+            text: "Search with Filters",
+            link: "/work-items/search",
+          },
+          {
+            text: "Log Time",
+            link: "/work-items/log-time",
+          },
+          {
+            text: "Link Work Items",
+            link: "/work-items/link",
+          },
+        ],
+      },
+      {
         text: "Guide",
         collapsed: false,
         items: [
