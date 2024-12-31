@@ -6,29 +6,68 @@ outline: deep
 
 # Link Work Items
 
-## Creating Links
+## Overview
 
-### 1. Open Work Item
+Linking work items helps establish relationships between related tasks. This feature enables teams to:
 
-1. Navigate to the work item
-2. Click **Link** button
+- Track dependencies
+- Manage related issues
+- Create hierarchical structures
+- Monitor blocked items
 
-### 2. Select Link Type
+## Linking Process
 
-Choose relationship:
+### Step 1: Access Link Feature
 
-- Relates to
-- Blocks
-- Is blocked by
-- Duplicates
-- Is duplicated by
+1. Navigate to the source work item
+2. Click the **Link** button in the toolbar
+3. Choose link operation
 
-### 3. Select Target Work Item
+### Step 2: Select Link Type
 
-1. Search for work item
-2. Select from results
-3. Click **Link**
+| Link Type        | Description                        | Use Case             |
+| ---------------- | ---------------------------------- | -------------------- |
+| Relates to       | General relationship between items | Connected features   |
+| Blocks           | This item blocks another           | Dependencies         |
+| Is blocked by    | This item is blocked by another    | Dependency tracking  |
+| Duplicates       | This item duplicates another       | Issue consolidation  |
+| Is duplicated by | Another item duplicates this one   | Duplicate management |
 
-::: tip
-Use appropriate link types to clearly show work item relationships.
-:::
+### Step 3: Choose Target Item
+
+1. Search for target work item
+2. Select from search results
+3. Confirm link creation
+
+## Managing Links
+
+### View Linked Items
+
+Access linked items through:
+
+- Relationships tab
+- Work item details
+- Quick view panel
+
+### Remove Links
+
+To remove a link:
+
+1. Open work item
+2. Navigate to links section
+3. Click remove icon
+
+::: tip Best Practices
+
+- Use appropriate link types
+- Keep relationships updated
+- Document link reasons
+- Review links periodically
+  :::
+
+::: warning Important Notes
+
+- Links are bidirectional
+- Removing a link affects both items
+- Some link types have specific behaviors
+  :::

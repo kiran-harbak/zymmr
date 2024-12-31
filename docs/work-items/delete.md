@@ -6,22 +6,63 @@ outline: deep
 
 # Delete Work Item
 
-## Steps to Delete a Work Item
+## Overview
 
-### 1. Locate Work Item
+Deleting work items permanently removes them from your project. This guide covers:
+
+- Deletion process
+- Safety considerations
+- Alternative options
+- Data implications
+
+## Deletion Process
+
+### Step 1: Access Work Item
 
 1. Navigate to your project
-2. Find the work item you want to delete
-3. Open the work item
+2. Locate target work item
+3. Open work item details
 
-### 2. Delete Operation
+### Step 2: Verify Dependencies
+
+Check for:
+
+- Linked items
+- Child items
+- Attachments
+- Time logs
+- Comments
+
+### Step 3: Delete Operation
 
 1. Click the **Delete** button
-2. Confirm the deletion when prompted
+2. Review deletion warning
+3. Confirm deletion
 
-::: warning Important
+## Important Considerations
+
+### Data Loss Prevention
+
+Consider these alternatives before deletion:
+
+- Archive the item
+- Change status to 'Closed'
+- Move to a different project
+- Create historical record
+
+### Impact Assessment
+
+Deletion affects:
+
+- Related work items
+- Project metrics
+- Historical data
+- Team notifications
+
+::: warning Critical Notes
 
 - Deletion cannot be undone
-- All associated comments and attachments will also be deleted
-- Consider using the Archive feature instead of deletion for important items
+- All associated data will be lost
+- Consider archiving instead
+- Verify permissions before deletion
   :::

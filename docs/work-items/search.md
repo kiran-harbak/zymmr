@@ -6,17 +6,28 @@ outline: deep
 
 # Search Work Items
 
-## Search Options
+## Overview
+
+The search functionality helps teams find and filter work items efficiently. This feature enables:
+
+- Quick item location
+- Advanced filtering
+- Saved search templates
+- Bulk item management
+
+## Search Features
 
 ### Quick Search
 
-1. Use the search bar
-2. Enter keywords
-3. Press Enter
+| Feature      | Description                    | Access     |
+| ------------ | ------------------------------ | ---------- |
+| Text Search  | Search by title or description | Search bar |
+| ID Search    | Search by work item ID         | Search bar |
+| Recent Items | View recently accessed items   | Quick menu |
 
 ### Advanced Search
 
-Use filters for:
+Available filters include:
 
 - Status
 - Type
@@ -25,13 +36,36 @@ Use filters for:
 - Date range
 - Custom fields
 
-### Saved Searches
+### Filter Combinations
+
+Create complex searches using:
+
+1. Multiple filters
+2. AND/OR operators
+3. Custom field conditions
+4. Date ranges
+
+## Managing Searches
+
+### Save Searches
 
 1. Configure search parameters
 2. Click **Save Search**
 3. Name your search
-4. Access saved searches anytime
+4. Set visibility (Private/Public)
 
-::: tip
-Combine multiple filters for more precise results.
-:::
+### Access Saved Searches
+
+Find saved searches in:
+
+- Search dropdown
+- Favorites menu
+- Quick filters
+
+::: tip Best Practices
+
+- Use specific search terms
+- Save frequently used filters
+- Share useful searches
+- Update search templates regularly
+  :::

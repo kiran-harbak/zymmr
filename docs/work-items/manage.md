@@ -6,32 +6,59 @@ outline: deep
 
 # Manage Work Items
 
-## Work Item Management
+## Overview
+
+Effective work item management helps teams track and organize their work. This guide covers:
+
+- Different view options
+- Bulk operations
+- Organization methods
+- Search and filtering
+
+## Management Features
 
 ### View Options
 
-- List view
-- Board view
-- Calendar view
-- Gantt view
+| View Type | Description           | Best For                   |
+| --------- | --------------------- | -------------------------- |
+| List      | Traditional list view | Quick scanning and sorting |
+| Board     | Kanban-style board    | Visual workflow management |
+| Calendar  | Date-based view       | Timeline planning          |
+| Gantt     | Timeline view         | Project scheduling         |
 
 ### Bulk Operations
 
-1. Select multiple work items
-2. Available actions:
+Available bulk actions:
+
+1. Select multiple items:
+
+   - Click checkboxes
+   - Use shift-click for range
+   - Use ctrl-click for individual
+
+2. Apply actions:
    - Update status
-   - Assign to users
+   - Assign users
    - Set priority
    - Move to sprint
    - Delete items
 
-### Organization
+### Organization Methods
 
-- Group by type
-- Sort by priority
-- Filter by status
-- Search by keyword
+Organize work items by:
 
-::: tip
-Use saved filters to quickly access frequently used work item views.
-:::
+- Type
+- Priority
+- Status
+- Assignee
+- Sprint
+- Module
+- Custom fields
+
+::: tip Pro Tips
+
+- Save frequently used filters
+- Use keyboard shortcuts
+- Create custom views
+- Set up automatic notifications
+  :::
