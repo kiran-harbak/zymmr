@@ -46,6 +46,13 @@ Local setup includes:
 2. Development environment configuration
 3. Test data setup tools
 
+## Data Migration & Import
+
+Zymmr provides comprehensive tools for bringing your existing data into the platform:
+
+- [Data Migration Guide](./data-migration) - Overview of migration options
+- [Data Importer](./data-importer) - Self-service tool for importing work items, time logs, and comments
+
 ## Next Steps
 
 Choose your path:

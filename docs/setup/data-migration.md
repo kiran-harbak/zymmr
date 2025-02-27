@@ -18,13 +18,32 @@ Zymmr provides comprehensive data migration capabilities through our **Data Impo
 - Jira
 - CSV/Excel files
 
-## Migration Process
+## Migration Options
 
-::: warning Important Note
-Data migration requires careful planning and execution. For the best results, please [contact our team](/contact-us) to assist with your migration needs.
+Zymmr offers two approaches to data migration:
+
+### 1. Self-Service Data Importer
+
+Our [Data Importer](/setup/data-importer) tool allows you to:
+
+- Import work items, time logs, and comments
+- Map CSV columns to Zymmr fields
+- Validate data before import
+- Track import progress
+
+::: tip Recommended for
+- Standard project structures
+- CSV data exports from other systems
+- Smaller to medium-sized migrations
 :::
 
-### What We Offer
+[Learn more about the Data Importer →](/setup/data-importer)
+
+### 2. Assisted Migration
+
+::: warning For Complex Migrations
+For large or complex migrations, we recommend working with our team to ensure a smooth transition.
+:::
 
 Our team will help you with:
 
@@ -49,13 +68,10 @@ Our team will help you with:
 
 To begin your data migration:
 
-1. [Contact our team](/contact-us)
-2. Share your migration requirements
-3. Get a personalized migration plan
-
-::: tip Coming Soon
-We're working on our self-service Data Importer functionality. For now, our team will assist you with all data migration needs to ensure a smooth transition to Zymmr.
-:::
+1. For standard migrations, use our [Data Importer](/setup/data-importer)
+2. For complex migrations, [contact our team](/contact-us)
+3. Share your migration requirements
+4. Get a personalized migration plan
 
 ## Need Help?
 

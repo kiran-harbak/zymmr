@@ -51,6 +51,10 @@ export default defineConfig({
             text: "Data Migration",
             link: "/setup/data-migration",
           },
+          {
+            text: "Data Importer",
+            link: "/setup/data-importer",
+          },
         ],
       },
       {
