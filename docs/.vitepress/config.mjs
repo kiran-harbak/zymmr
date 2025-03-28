@@ -4,7 +4,18 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Zymmr",
   description: "A Project Management",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+    [
+      "script",
+      {
+        defer: true,
+        "data-website-id": "67e6d9241399638adc916815",
+        "data-domain": "zymmr.vercel.app",
+        src: "https://datafa.st/js/script.js",
+      },
+    ],
+  ],
   themeConfig: {
     logo: {
       src: "/logo.png",
