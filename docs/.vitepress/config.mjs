@@ -167,6 +167,127 @@ export default defineConfig({
         ],
       },
       {
+        text: "Features",
+        collapsed: false,
+        items: [
+          { text: "Agile Methodology", link: "/features/agile-methodology" },
+          {
+            text: "Kanban Project Management",
+            link: "/features/kanban-project-management",
+          },
+          {
+            text: "Active Sprint Board",
+            link: "/features/active-sprint-board",
+          },
+          { text: "Board Customization", link: "/features/board-customize" },
+          { text: "Board Settings", link: "/features/board-settings" },
+          {
+            text: "Capacity Planning",
+            link: "/features/capacity-planning",
+          },
+          { text: "Milestones", link: "/features/milestones" },
+          {
+            text: "Project Costing",
+            link: "/features/project-costing",
+          },
+          {
+            text: "Resource Management",
+            link: "/features/resource-management",
+          },
+          { text: "Roadmaps", link: "/features/roadmaps" },
+          { text: "Sprint", link: "/features/sprint" },
+          { text: "Timesheet", link: "/features/timesheet" },
+        ],
+      },
+      {
+        text: "Customizing Zymmr",
+        collapsed: false,
+        items: [
+          {
+            text: "Search Work Items",
+            link: "/customizing/search-work-item",
+          },
+          {
+            text: "Filter Functionality",
+            link: "/customizing/filter-functionality",
+          },
+          {
+            text: "Export Feature",
+            link: "/customizing/export-feature",
+          },
+          {
+            text: "Configure Columns",
+            link: "/customizing/configure-columns-feature",
+          },
+          {
+            text: "Changing a Work Item Sprint",
+            link: "/customizing/changing-sprint-associated-with-work-item",
+          },
+          {
+            text: "Managing Project Backlog",
+            link: "/customizing/managing-project-backlog",
+          },
+          {
+            text: "Task Ordering and Lexorank",
+            link: "/customizing/task-ordering-and-lexorank",
+          },
+        ],
+      },
+      {
+        text: "Zymmr Administration",
+        collapsed: false,
+        items: [
+          { text: "User Management", link: "/administration/user-management" },
+          { text: "Roles", link: "/administration/roles" },
+          { text: "Work Schedule", link: "/administration/work-schedule" },
+          {
+            text: "Project Categories",
+            link: "/administration/project-categories",
+          },
+          { text: "Project Status", link: "/administration/project-status" },
+          {
+            text: "Permission Schemes",
+            link: "/administration/setup-permission-schemes",
+          },
+          { text: "Work Items", link: "/administration/work-items" },
+          {
+            text: "Work Item Type Schemes",
+            link: "/administration/setup-work-item-type-schemes",
+          },
+          {
+            text: "Workflow Schemes",
+            link: "/administration/setup-workflow-schemes",
+          },
+          {
+            text: "Custom Fields",
+            link: "/administration/setup-custom-fields",
+          },
+          {
+            text: "Outgoing Email Server",
+            link: "/administration/setup-outgoing-email-server",
+          },
+        ],
+      },
+      {
+        text: "Reports and Dashboard",
+        collapsed: false,
+        items: [
+          {
+            text: "Project Insights Dashboard",
+            link: "/reports/project-insights-dashboard",
+          },
+          { text: "Gantt Chart", link: "/reports/gantt-feature" },
+          { text: "Burn-up Charts", link: "/reports/burnup-charts" },
+          { text: "Burn-down Charts", link: "/reports/burndown-charts" },
+          { text: "Velocity Charts", link: "/reports/velocity-charts" },
+        ],
+      },
+      {
+        text: "Smart Features",
+        collapsed: false,
+        items: [{ text: "Introduction", link: "/smart-features/intro" }],
+      },
+      {
         text: "Guide",
         collapsed: false,
         items: [
