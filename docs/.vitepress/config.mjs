@@ -244,7 +244,6 @@ export default defineConfig({
             text: "Project Categories",
             link: "/administration/project-categories",
           },
-          { text: "Project Status", link: "/administration/project-status" },
           {
             text: "Permission Schemes",
             link: "/administration/setup-permission-schemes",
@@ -282,11 +281,11 @@ export default defineConfig({
           { text: "Velocity Charts", link: "/reports/velocity-charts" },
         ],
       },
-      {
+      /* {
         text: "Smart Features",
         collapsed: false,
         items: [{ text: "Introduction", link: "/smart-features/intro" }],
-      },
+      }, */
       {
         text: "Guide",
         collapsed: false,
