@@ -1,70 +1,97 @@
 ---
 title: Project Insights Dashboard
-description: A comprehensive guide to the Project Insights dashboard in Zymmr, covering top-line metrics, progress tracking, and blockers.
+description: An interactive analytics dashboard providing real-time visibility into the health and progress of your top active projects.
 head:
   - - meta
     - name: keywords
-      content: dashboard, project insights, reporting, metrics, progress, blockers, zymmr
+      content: dashboard, analytics, project insights, variance analysis, project health, reports, zymmr
 outline: deep
 ---
 
 # Project Insights Dashboard
 
 ::: info Overview
-The Project Insights dashboard provides a comprehensive, real-time view of your project's status and key metrics. It is designed to help you track progress, identify potential issues early, and make data-driven decisions to keep your project on track.
+The Project Insights Dashboard is an analytics interface that provides visibility into your projects. Designed for project managers, team leads, and stakeholders, it offers rich insights into team structure, task progress, schedule/effort variances, and resource utilization.
 :::
 
-## Top-Line Metrics
+## Dashboard Widgets
 
-This section provides a high-level, at-a-glance summary of the project's health.
+The dashboard is composed of several interactive widgets, each designed to answer a key question about your project portfolio.
 
--   **Team Size**: The total number of team members currently assigned to the project.
--   **Delayed Tasks**: A count of all work items that are past their due date.
--   **Effort Variance**: The difference between the total estimated effort and the actual time logged, indicating if the project is over or under its effort budget.
--   **Schedule Variance**: The deviation from the planned project schedule, highlighting if the project is ahead or behind schedule.
+### 1. Team Size by Project
 
-## Milestone and Overall Progress
+| Visual Type   | Purpose                                                    |
+| :------------ | :--------------------------------------------------------- |
+| Horizontal bar chart | Displays the number of active contributors in each project. |
 
-This section dives deeper into the project's progress towards major goals and the distribution of work.
+Projects are listed vertically, with their total headcount shown in horizontal bars. This widget is perfect for comparing team allocation and size across your most active initiatives at a glance.
 
-### Milestone Progress
-A detailed table tracks the status of key milestones.
+### 2. Task Status Overview
 
-| Milestone Name | Owner      | Due Date     | Status      | Tasks      |
-| -------------- | ---------- | ------------ | ----------- | ---------- |
-| *[Milestone 1]*  | *[Name]*    | *[YYYY-MM-DD]*| *[On Track]* | *[Task List]* |
-| *[Milestone 2]*  | *[Name]*    | *[YYYY-MM-DD]*| *[At Risk]*  | *[Task List]* |
+| Visual Type          | Purpose                                                       |
+| :------------------- | :------------------------------------------------------------ |
+| Stacked vertical bar chart | Provides an overview of task completion statuses across projects. |
 
-This section is often accompanied by a pie chart showing the overall status distribution of all work items (e.g., Open, In Progress, Done).
+Each project appears along the X-axis, with a stacked bar showing the count of tasks segmented by their current status (e.g., “Completed,” “In Progress,” “Delayed,” “No End Date”). This helps you quickly identify project bottlenecks or delays by status category.
 
-### Overall Progress
-This area typically includes a pie chart illustrating the distribution of effort between **functional** and **non-functional** work, helping you understand where your team's time is being spent.
+### 3. Enhanced Variance Analysis
 
-## Blockers
+| Visual Type                | Purpose                                                          |
+| :------------------------- | :--------------------------------------------------------------- |
+| Interactive scatter/bar chart | Compares how actual project efforts and timelines deviate from plans. |
 
-This critical section lists any work items that are currently impeding progress, allowing for quick identification and resolution.
+This powerful widget has two distinct modes for analysis:
 
-| Key       | Assignee   | Due Date     | Status      | Due Since |
-| --------- | ---------- | ------------ | ----------- | --------- |
-| `ZYM-123` | John Doe   | `2024-08-01` | `Open`      | 5 days    |
-| `ZYM-456` | Jane Smith | `2024-08-05` | `In Review` | 1 day     |
+#### Pattern Mode (Default View)
+Visualized as a scatter plot where each bubble represents a project.
+- **X-axis**: Schedule Variance (in days)
+- **Y-axis**: Effort Variance (in hours)
 
-## Current Limitations and Future Developments
+The placement of bubbles reveals performance clusters:
+- **Top-right**: Delayed and over budget.
+- **Center**: On track.
+- **Bottom-left**: Ahead of schedule and under effort.
 
-We are continuously working to improve the dashboard. Here are some current limitations and upcoming features:
--   The dashboard is currently not customizable.
--   An overall "Project Health" indicator is under development to provide an even quicker summary.
+#### Comparison Mode
+Triggered by clicking the **Comparison** button, this mode displays a dual-bar view for each project, showing exact variance values.
+- **Purple bars**: Schedule variance (positive = overrun, negative = underrun).
+- **Orange bars**: Effort variance (positive = overrun, negative = underrun).
 
-## Example Use Case
+::: tip Use Case
+While **Pattern Mode** gives an instant overview of performance trends, **Comparison Mode** is best for precise benchmarking and detailed variance auditing.
+:::
 
-### Scenario
-You are the project manager for the "Mobile App Development" project and need to prepare for a weekly stakeholder meeting by reviewing the project's status.
+### 4. Project Progress Overview
 
-### Steps
-1.  **View Top-Line Metrics**: You first check the `Delayed Tasks` and `Schedule Variance` to get an immediate sense of the project's health.
-2.  **Analyze Milestone Progress**: You then review the milestone table to see which major deliverables are `On Track` or `At Risk`, and check the work item pie chart for overall progress.
-3.  **Review Blockers**: Finally, you examine the `Blockers` table to identify any critical issues that need to be escalated or addressed immediately.
+| Visual Type        | Purpose                                                                 |
+| :----------------- | :---------------------------------------------------------------------- |
+| Stacked bar chart | Shows overall project completion percentage based on work item counts. |
 
-::: tip Keep Your Project on Track
-By using the Project Insights dashboard regularly, you can effectively monitor your project's progress, manage resources proactively, and address any issues promptly to ensure successful delivery.
+Each project's bar on the X-axis breaks down the percentage contribution of individual work item types (e.g., `Task`, `Epic`, `Story`). A cumulative progress percentage and item count (e.g., "17.9% — 189/684 items complete") provides a clear summary of completion.
+
+### 5. Overall Efforts Analysis
+
+| Visual Type          | Purpose                                                               |
+| :------------------- | :-------------------------------------------------------------------- |
+| Stacked vertical bar chart | Displays the distribution of logged hours across work categories. |
+
+This chart is especially useful for analyzing where teams are investing most of their time. Categories like `Development`, `Testing`, and `Meetings` are color-coded, with project bars showing the total time logged for each.
+
+
+## Dashboard Filters
+
+Located in the top right corner, filters allow you to refine the entire dashboard.
+
+## Key User Benefits
+
+-   **Centralized Health View**: Get a single, comprehensive view of project health across all active initiatives.
+-   **Proactive Variance Analysis**: Catch delays or budget overruns early before they become critical issues.
+-   **Visual Resource Planning**: Understand team distribution and workload for better planning and balancing.
+
+::: tip Hover for Details
+You can hover over any chart segment, bar, or point on the dashboard widgets. A tooltip will appear, providing you with all the related details and exact figures for that data point.
+:::
+
+::: warning Dynamic and Configurable
+The **work item types** and **completion statuses** displayed in the charts are configured by your administrator in **Global Settings**. Your dashboard will adapt to reflect your organization’s unique setup, so it may appear different from the examples shown.
 :::
