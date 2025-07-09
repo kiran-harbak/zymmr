@@ -70,7 +70,7 @@ For general inquiries, contact us at info@ziyanasoftware.com.
 
 ## Connect With Us
 
-- [GitHub](https://github.com/zymmr)
+- [GitHub](https://github.com/kiran-harbak/zymmr)
 - [LinkedIn](https://www.linkedin.com/company/zymmr)
 - [YouTube](https://www.youtube.com/@zymmr)
 - [X](https://x.com/ZymmrPM)
