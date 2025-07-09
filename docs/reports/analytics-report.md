@@ -85,10 +85,11 @@ The Chart tab provides a simple configuration panel to define your chart's appea
 | **Chart Type**    | Select the type of chart you want to create (e.g., `bar`, `line`, `pie`, `scatter`).                          |
 | **x-axis**        | Choose the column for the horizontal axis (e.g., `Project`). |
 | **y-axis**        | Choose the numerical column for the vertical axis. This must be the result of an `Aggregate` function (e.g., `WI Count`). |
-| **stacking-axis** | (For Bar Charts) A powerful option to subdivide your bars into segments based on a second category. This is typically the column you used in your `Group By` clause (e.g., `Priority`). |
+| **stacking-axis** (optional) | (For Bar Charts) A powerful option to subdivide your bars into segments based on a second category. This is typically the column you used in your `Group By` clause (e.g., `Priority`). |
 
 ### Example: Creating a Stacked Bar Chart
-1.  **Prepare the Data (Advanced Tab)**:
+1.  **Prepare the Data (Basic & Advanced Tab)**:
+    -   Add `Project` and `Priority` columns
     -   `Group By`: `Project`
     -   `Group By`: `Priority`
     -   `Aggregate`: `Count` of `Work Item` with label `WI Count`.
