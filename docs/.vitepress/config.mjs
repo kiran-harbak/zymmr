@@ -266,16 +266,16 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Gantt Chart", link: "/reports/gantt-feature" },
-          { text: "Roadmaps", link: "/reports/roadmaps" },
+          { text: "Roadmaps", link: "/features/roadmaps" },
           {
             text: "Project Insights Dashboard",
             link: "/reports/project-insights-dashboard",
           },
           {
             text: "Resource Management",
-            link: "/reports/resource-management",
+            link: "/features/resource-management",
           },
-          { text: "Timesheet", link: "/reports/timesheet" },
+          { text: "Timesheet", link: "/features/timesheet" },
           { text: "Hierarchica Reports", link: "/reports/hierarchica-reports" },
           { text: "Analytics Report", link: "/reports/analytics-report" },
           { text: "Report Scheduling", link: "/reports/report-scheduling" },
