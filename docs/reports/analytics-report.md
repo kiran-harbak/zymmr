@@ -92,7 +92,7 @@ The Chart tab provides a simple configuration panel to define your chart's appea
     -   Add `Project` and `Priority` columns
     -   `Group By`: `Project`
     -   `Group By`: `Priority`
-    -   `Aggregate`: `Count` of `Work Item` with label `WI Count`.
+    -   `Aggregate`: `Count` of `Work Item(key)` with label `WI Count`.
     -   Click **Execute**.
 
 2.  **Configure the Chart (Chart Tab)**:
