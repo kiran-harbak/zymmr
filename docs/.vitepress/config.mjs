@@ -275,6 +275,7 @@ export default defineConfig({
             text: "Project Insights Dashboard",
             link: "/reports/project-insights-dashboard",
           },
+          { text: "Hierarchica Reports", link: "/reports/hierarchica-reports" },
           { text: "Gantt Chart", link: "/reports/gantt-feature" },
           { text: "Burn-up Charts", link: "/reports/burnup-charts" },
           { text: "Burn-down Charts", link: "/reports/burndown-charts" },
