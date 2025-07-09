@@ -14,7 +14,7 @@ outline: deep
 The Project Insights Dashboard is an analytics interface that provides visibility into your projects. Designed for project managers, team leads, and stakeholders, it offers rich insights into team structure, task progress, schedule/effort variances, and resource utilization.
 :::
 
-# Accessing the Project Insights
+## Accessing the Project Insights
 1. Click **Reports** in the main navigation panel.
 2. Select **Project Insights** from the list of available reports.
 

@@ -190,13 +190,7 @@ export default defineConfig({
             text: "Project Costing",
             link: "/features/project-costing",
           },
-          {
-            text: "Resource Management",
-            link: "/features/resource-management",
-          },
-          { text: "Roadmaps", link: "/features/roadmaps" },
           { text: "Sprint", link: "/features/sprint" },
-          { text: "Timesheet", link: "/features/timesheet" },
         ],
       },
       {
@@ -271,12 +265,20 @@ export default defineConfig({
         text: "Reports and Dashboard",
         collapsed: false,
         items: [
+          { text: "Gantt Chart", link: "/reports/gantt-feature" },
+          { text: "Roadmaps", link: "/reports/roadmaps" },
           {
             text: "Project Insights Dashboard",
             link: "/reports/project-insights-dashboard",
           },
+          {
+            text: "Resource Management",
+            link: "/reports/resource-management",
+          },
+          { text: "Timesheet", link: "/reports/timesheet" },
           { text: "Hierarchica Reports", link: "/reports/hierarchica-reports" },
-          { text: "Gantt Chart", link: "/reports/gantt-feature" },
+          { text: "Analytics Report", link: "/reports/analytics-report" },
+          { text: "Report Scheduling", link: "/reports/report-scheduling" },
           { text: "Burn-up Charts", link: "/reports/burnup-charts" },
           { text: "Burn-down Charts", link: "/reports/burndown-charts" },
           { text: "Velocity Charts", link: "/reports/velocity-charts" },

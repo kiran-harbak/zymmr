@@ -14,7 +14,7 @@ outline: deep
 The Hierarchical Reports module provides a structured and comprehensive overview of all work items within a selected project. Work items are grouped by sprint and visualized hierarchically based on their parent-child relationships, making this an essential view for sprint reviews, time analysis, and backlog audits.
 :::
 
-# Accessing the Hierarchical Reports
+## Accessing the Hierarchical Reports
 1. Click **Reports** in the main navigation panel.
 2. Select **Hierarchical** from the list of available reports.
 
