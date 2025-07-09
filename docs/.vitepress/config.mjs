@@ -302,7 +302,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/zymmr/zymmr-docker" },
+      { icon: "github", link: "https://github.com/kiran-harbak/zymmr" },
       { icon: "linkedin", link: "https://www.linkedin.com/company/zymmr" },
       { icon: "youtube", link: "https://www.youtube.com/@zymmr" },
       { icon: "x", link: "https://x.com/ZymmrPM" },

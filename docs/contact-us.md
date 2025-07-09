@@ -19,7 +19,7 @@ You can reach us by phone at **+91 96577 02154**.
 
 Connect with us on our social media platforms:
 
-- [GitHub](https://github.com/zymmr/zymmr-docker)
+- [GitHub](https://github.com/kiran-harbak/zymmr)
 - [LinkedIn](https://www.linkedin.com/company/zymmr)
 - [YouTube](https://www.youtube.com/@zymmr)
 - [X](https://x.com/ZymmrPM)

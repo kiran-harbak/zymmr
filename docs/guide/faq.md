@@ -132,7 +132,7 @@ docker stats
 #### Q: Where can I get help?
 
 1. Check this FAQ
-2. [GitHub Issues](https://github.com/zymmr/zymmr-docker/issues)
+2. [GitHub Issues](https://github.com/kiran-harbak/zymmr/issues)
 
 #### Q: How do I report bugs?
 
@@ -140,7 +140,7 @@ docker stats
 2. Provide reproduction steps
 3. Include error logs
 4. Share system information
-5. [Create an issue](https://github.com/zymmr/zymmr-docker/issues/new)
+5. [Create an issue](https://github.com/kiran-harbak/zymmr/issues/new)
 
 ::: tip Need More Help?
 Can't find what you're looking for? Contact our support team at [contact us](/contact-us)
