@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Zymmr Analytics Reports
+# Analytics Reports
 
 ::: info Overview
 The Zymmr Analytics Reports feature is a powerful and flexible tool designed to help you query, analyze, and visualize your project data. This guide will walk you through managing your collection of reports, building your data sets, and finally, visualizing them as insightful charts.
@@ -25,8 +25,8 @@ Your journey begins on the main Reports screen, which provides a paginated overv
 
 From this dashboard, you can:
 -   See a list of all reports with their **Title**, **ID**, and creation/update dates.
--   Click on any report's title to open it in the builder for viewing or editing.
--   Perform actions like deleting a report.
+-   Click on any **report's title** to open it in the **builder for viewing or editing**.
+-   Perform actions like deleting a report, by clicking on the delete icon for the report.
 -   Click **`+ New Report`** to start building a new report from scratch, which will take you to the Report Builder Interface.
 
 
@@ -36,8 +36,8 @@ When you create a new report or edit an existing one, you are presented with the
 
 | Tab        | Purpose                                                                                              |
 | :--------- | :--------------------------------------------------------------------------------------------------- |
-| **Basic**  | Use this for creating simple, tabular reports with raw, unfiltered data.                           |
-| **Advanced** | Use this for creating summarized reports by grouping data and performing calculations (`Count`, `Sum`). |
+| **Basic**  | Use this for creating simple, tabular reports with raw data.                           |
+| **Advanced** | Use this for creating summarized reports by grouping data and performing calculations (`Count`, `Sum`, `Average`, `Max`, `Min`). |
 | **Chart**    | Use this to turn your data table (from either the Basic or Advanced tab) into a visual chart.        |
 
 ### Key Interface Controls
@@ -49,26 +49,26 @@ In the top right corner of the builder, you will find essential controls for man
 
 ## Stage 3: Building Your Data Set
 
-Before you can create a chart, you need to tell the system what data to display.
+you can tell the system what data to display using the basic tab.
 
 ### Using the Basic Tab (For Raw Data)
 The Basic tab is your starting point for pulling a straightforward list of data.
 
--   **Tables**: Select the primary data source for your report (e.g., `Work Item`, `Project`, `Time Log`).
--   **Columns**: Click the **`+`** icon to add the specific fields you want to see, such as `Title`, `Project`, `Priority`, and `Status`.
+-   **Tables**: Select the primary data source for your report (e.g. `Work Item`, `Project`, `Time Log`). You can select multiple tables.
+-   **Columns**: Click the **`+`** icon to add the specific fields you want to see, such as (e.g.`Title`, `Project`, `Priority`, and `Status`).
 -   **Filters**: Narrow down your results by adding filters. For example, create a filter for `Status Equals "Open"` to see only active work items.
 -   **Row Limit**: Set a limit on how many rows are returned to keep performance fast.
 
 After configuring your options, click the **Execute** button to see the resulting data table.
 
 ### Using the Advanced Tab (For Summarized Data)
-The Advanced tab is **essential** for creating meaningful charts because they almost always require summarized (aggregated) data. For example, instead of a list of 100 work items, you want to see the *count* of work items per project.
+The Advanced tab is **essential** for creating a summary of data. For example, instead of a list of 100 work items, you want to see the *count* of work items per project.
 
 -   **Group By**: This is how you categorize your data. To count items per project, you would `Group By` the `Project` column.
 -   **Aggregate**: This is the calculation you perform on each group.
     -   **Function**: Choose a function like `Count`, `Sum`, `Average`, `Min`, or `Max`.
     -   **Column**: Select the column to perform the calculation on.
-    -   **Label**: Give your new calculated column a name, like "WI Count" or "Total Hours".
+    -   **Label**: Give your new calculated column a name, like "Total Hours".
 
 After adding your groupings and aggregations, click **Execute** to see the summarized data table. This table will be the source for your chart.
 
@@ -82,12 +82,47 @@ The Chart tab provides a simple configuration panel to define your chart's appea
 
 | Field             | Description                                                                                                   |
 | :---------------- | :------------------------------------------------------------------------------------------------------------ |
-| **Chart Type**    | Select the type of chart you want to create (e.g., `bar`, `line`, `pie`, `scatter`).                          |
-| **x-axis**        | Choose the column for the horizontal axis (e.g., `Project`). |
-| **y-axis**        | Choose the numerical column for the vertical axis. This must be the result of an `Aggregate` function (e.g., `WI Count`). |
-| **stacking-axis** (optional) | (For Bar Charts) A powerful option to subdivide your bars into segments based on a second category. This is typically the column you used in your `Group By` clause (e.g., `Priority`). |
+| **Chart Type**    | Select the type of chart you want to create (e.g. `bar`, `line`, `pie`, `scatter`).                          |
+| **x-axis**        | Choose the column for the horizontal axis (e.g. `Project`). |
+| **y-axis**        | Choose the **numerical column** for the vertical axis. |
+| **stacking-axis** (optional) | A powerful option to subdivide your bars into segments based on a second category. This is typically the column you used in your `Group By` clause (e.g., `Priority`). Does not support pie chart (Chart Type)|
 
-### Example: Creating a Stacked Bar Chart
+
+
+## Report Examples:
+These are some examples of commonly used reports
+
+#### Project Overview
+Shows all work items grouped by project:
+1. Select `Work Item` as base table
+2. Add columns: `Key`, `Title`, `Project`, `Status`
+3. Group by `Project`
+4. Optional: Filter by `date` range
+
+#### Team Member Workload
+Track assigned tasks per team member:
+1. Select `Work Item` as base table
+2. Add columns: `Key`, `Title`, `Assignee`
+3. Group by `Assignee`
+4. Add filters for active work items
+
+#### Sprint Progress
+Monitor current sprint status:
+1. Select `Work Item` as base table
+2. Add columns: `Key`, `Title`, `Status`, `Sprint`
+3. Filter by current `sprint`
+4. Group by `Status`
+
+#### Time Tracking Analysis
+Review time logged on tasks:
+1. Select `Time Log` as base table
+2. Add columns: Work Item, Author, Time
+3. Group by Work Item
+4. Optional: Filter by `date` range
+
+## Chart Example:
+This is an example of a chart where we want to see distribution of work item count in a project according to their priority.
+
 1.  **Prepare the Data (Basic & Advanced Tab)**:
     -   Add `Project` and `Priority` columns
     -   `Group By`: `Project`
