@@ -92,33 +92,26 @@ The Chart tab provides a simple configuration panel to define your chart's appea
 ## Report Examples:
 These are some examples of commonly used reports
 
-#### Project Overview
-Shows all work items grouped by project:
+#### Work Item Overview
+Shows all work items with their key, title, project, status :
 1. Select `Work Item` as base table
 2. Add columns: `Key`, `Title`, `Project`, `Status`
-3. Group by `Project`
-4. Optional: Filter by `date` range
+3. Optional: Filter by `date` range
 
 #### Team Member Workload
 Track assigned tasks per team member:
 1. Select `Work Item` as base table
-2. Add columns: `Key`, `Title`, `Assignee`
-3. Group by `Assignee`
-4. Add filters for active work items
+2. Add columns: `Primary Assignee`
+3. Group by `Primary Assignee`
+4. Aggregate `Count` of `Work Item(key)` with label `WI Count`.
 
-#### Sprint Progress
-Monitor current sprint status:
-1. Select `Work Item` as base table
-2. Add columns: `Key`, `Title`, `Status`, `Sprint`
-3. Filter by current `sprint`
-4. Group by `Status`
 
 #### Time Tracking Analysis
 Review time logged on tasks:
 1. Select `Time Log` as base table
-2. Add columns: Work Item, Author, Time
-3. Group by Work Item
-4. Optional: Filter by `date` range
+2. Add columns: `Work Item`
+3. Group by `Work Item`
+4. Aggregate `Sum` of `Time` with label `Total Time`.
 
 ## Chart Example:
 This is an example of a chart where we want to see distribution of work item count in a project according to their priority.
@@ -137,7 +130,7 @@ This is an example of a chart where we want to see distribution of work item cou
     -   **stacking-axis**: `Priority`
     -   Click **Execute Chart**.
 
-The system will instantly generate the stacked bar chart.
+The system will generate the stacked bar chart.
 
 ::: tip Start with a Question
 The best way to build a useful report is to first ask a question, such as "How many bugs were created last month?" or "What is the average time spent per feature?" This question will guide your choices in the builder.
