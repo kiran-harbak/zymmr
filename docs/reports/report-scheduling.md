@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Zymmr Report Schedules
+# Report Schedules
 
 ::: info Overview
 The Report Schedules feature allows you to automate the delivery of your custom reports to key stakeholders. Effortlessly keep your team, clients, or management informed by scheduling reports to be sent directly to their inboxes on a recurring basis.
