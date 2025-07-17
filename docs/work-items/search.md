@@ -23,49 +23,29 @@ The search functionality helps teams find and filter work items efficiently. Thi
 | ------------ | ------------------------------ | ---------- |
 | Text Search  | Search by title or description | Search bar |
 | ID Search    | Search by work item ID         | Search bar |
-| Recent Items | View recently accessed items   | Quick menu |
 
 ### Advanced Search
 
-Available filters include:
+Some of the available filters includes fields like:
 
 - Status
 - Type
 - Priority
 - Assignee
 - Date range
-- Custom fields
+- Custom fields and many more
 
 ### Filter Combinations
 
 Create complex searches using:
 
 1. Multiple filters
-2. AND/OR operators
-3. Custom field conditions
-4. Date ranges
+2. Custom field conditions
+3. Date ranges
 
-## Managing Searches
-
-### Save Searches
-
-1. Configure search parameters
-2. Click **Save Search**
-3. Name your search
-4. Set visibility (Private/Public)
-
-### Access Saved Searches
-
-Find saved searches in:
-
-- Search dropdown
-- Favorites menu
-- Quick filters
 
 ::: tip Best Practices
 
 - Use specific search terms
 - Save frequently used filters
-- Share useful searches
-- Update search templates regularly
   :::

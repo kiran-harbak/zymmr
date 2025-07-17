@@ -16,7 +16,7 @@ Board Customization allows you to personalize your sprint board by choosing whic
 
 ## How to Access Board Customization
 
-1.  Navigate to your project's **Active Sprint Board**.
+1.  Navigate to your project's **Backlog page,** **Board, or** **Active Sprint Board**.
 2.  In the top right corner, click the settings icon (represented by `...`).
 3.  From the dropdown menu, select **Board Customize**.
 

@@ -32,7 +32,7 @@ The schemes are listed in a table with the following columns:
 
 ### Creating a New Workflow Scheme
 1.  From the workflow scheme page, click the **Add Workflow Scheme** button.
-2.  You will be immediately redirected to the **Add New Workflow Scheme** details page to begin configuration.
+2.  You will be immediately redirected to the new **Workflow Scheme details page** to begin configuration.
 3.  Add appropriate details
 4.  Create associations between workflows and work item types.
 5.  Click save

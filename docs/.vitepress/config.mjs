@@ -206,10 +206,6 @@ export default defineConfig({
             link: "/customizing/filter-functionality",
           },
           {
-            text: "Export Feature",
-            link: "/customizing/export-feature",
-          },
-          {
             text: "Configure Columns",
             link: "/customizing/configure-columns-feature",
           },
@@ -242,7 +238,7 @@ export default defineConfig({
             text: "Permission Schemes",
             link: "/administration/setup-permission-schemes",
           },
-          { text: "Work Items", link: "/administration/work-items" },
+          { text: "Work Item Type", link: "/administration/work-item-type" },
           {
             text: "Work Item Type Schemes",
             link: "/administration/setup-work-item-type-schemes",
@@ -276,7 +272,7 @@ export default defineConfig({
             link: "/features/resource-management",
           },
           { text: "Timesheet", link: "/features/timesheet" },
-          { text: "Hierarchica Reports", link: "/reports/hierarchica-reports" },
+          { text: "Hierarchical Reports", link: "/reports/hierarchica-reports" },
           { text: "Analytics Report", link: "/reports/analytics-report" },
           { text: "Report Scheduling", link: "/reports/report-scheduling" },
           { text: "Burn-up Charts", link: "/reports/burnup-charts" },

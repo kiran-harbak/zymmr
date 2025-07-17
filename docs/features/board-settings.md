@@ -16,7 +16,7 @@ Board Settings provide powerful configuration options to customize your **Active
 
 ## Accessing Board Settings
 
-1.  Navigate to your project's **Active Sprint Board**.
+1.  Navigate to your project's **Backlog page,** **Board, or** **Active Sprint Board**.
 2.  In the top right corner of the board, click the settings icon (represented by `...`) to open the **Board Settings** configuration page.
 
 ## Configuring Board Settings

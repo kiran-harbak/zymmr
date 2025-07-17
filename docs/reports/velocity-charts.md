@@ -19,7 +19,8 @@ Zymmr's velocity chart is an essential tool for Agile teams to measure and track
 ### Choice of Metrics
 Teams can track their velocity using their preferred estimation method, providing flexibility for different workflows:
 -   **Story Points**
--   **Effort** (in hours or days)
+-   **Effort** 
+-   **Count**
 
 ### Sprint Performance Comparison
 The chart displays two key bars for each sprint, allowing teams to compare their estimates against their actual performance:
@@ -32,12 +33,12 @@ By visualizing performance over time, the velocity chart helps identify trends i
 ## How to Access and Use Velocity Charts
 
 ### Accessing the Chart
-1.  Navigate to the **Projects** tab from the main menu.
-2.  Select the specific project you want to track.
+1.  Navigate to the **Projects** tab from navbar.
+2.  Select the specific project you want to track, clicking on its title.
 3.  In the project's left-hand menu, click on the **Velocity Chart** option.
 
 ### Configuring and Interpreting the Chart
-1.  **Configure Metric**: At the top of the chart, choose whether to display the data in **Story Points** or **Effort**.
+1.  **Configure Metric**: At the top of the chart, choose whether to display the data in **Story Points,** **Effort, or** **Count**.
 2.  **Analyze the Data**:
     -   **Planned vs. Actual**: For each sprint, compare the committed work bar to the completed work bar. This helps assess the accuracy of your sprint planning.
     -   **Identify Trends**: Look for patterns over several sprints. Is the team's velocity increasing, decreasing, or remaining stable?

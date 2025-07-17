@@ -1,112 +1,92 @@
 ---
-title: Zymmr Project
-description: Understanding project management in Zymmr
+title: Zymmr Projects 
+description: An introduction to project management concepts and how to organize, track, and deliver successful projects in Zymmr.
 head:
   - - meta
     - name: keywords
-      content: project management, zymmr, overview
+      content: project management, scrum, kanban, work items, project planning, zymmr
+outline: deep
 ---
 
-# Zymmr Project
+# Zymmr Projects 
 
-## Introduction
-
-Project management in Zymmr helps you organize, track, and deliver successful projects. Whether you're developing software, managing a team, or tracking deliverables, Zymmr provides the tools you need to achieve your goals efficiently.
+::: info Introduction
+Project management in Zymmr helps you organize, track, and deliver successful projects. Whether you're developing software, managing a marketing campaign, or tracking team deliverables, Zymmr provides the tools you need to achieve your goals efficiently.
+:::
 
 ## What is Project Management?
 
-Project management is your systematic approach to:
-
-- Planning and organizing work
-- Managing resources and timelines
-- Coordinating team efforts
-- Delivering successful outcomes
-
-::: info Why It Matters
-Effective project management ensures your product meets quality standards and customer expectations while staying within budget and timeline constraints.
-:::
+Project management is a systematic approach to planning work, managing resources, and coordinating team efforts to deliver successful outcomes. Effective project management ensures your product meets quality standards and customer expectations while staying within budget and timeline constraints.
 
 ## Project Types in Zymmr
 
-Zymmr currently supports two main project types, with the flexibility to create custom categories:
+Zymmr supports two primary project methodologies, with the flexibility to create custom categories to fit your team's needs.
 
-1. **Scrum Projects**
+### Scrum Projects
+Ideal for agile teams working in iterative cycles.
 
-   - Ideal for agile teams
-   - Sprint planning and tracking
-   - Built-in burnup and burndown charts
-   - Sprint retrospectives
-   - Story point estimation
+-   Sprint planning and tracking
+-   Built-in burn-up and burn-down charts
+-   Sprint retrospectives
+-   Story point estimation
 
-2. **Kanban Projects**
+### Kanban Projects
+Perfect for teams that focus on a continuous flow of work.
 
-   - Visual workflow management with customizable boards
-   - Backlog organization
-   - Advanced board features:
-     - Drag and drop functionality
-     - Customizable columns by workflow status
-     - Custom filters and views
+-   Visual workflow management with customizable boards
+-   Flexible backlog organization
+-   Drag-and-drop functionality
+-   Custom filters and views
 
 ::: tip Customization
-While Scrum and Kanban are our primary supported methodologies, you can customize project categories to match your team's specific workflow needs.
+While Scrum and Kanban are our primary supported methodologies, you can customize project categories in the administration settings to match your team's specific workflow needs.
 :::
 
-## Project Components
+## Core Project Components
+
+Every project in Zymmr is built from a set of core components designed to help you organize and track work.
 
 ### 1. Work Items
+The fundamental units of work in your project.
+-   Tasks
+-   User Stories
+-   Bugs
+-   Epics
 
-- Tasks
-- User Stories
-- Bugs
-- Epics
+These are customizable.
 
 ### 2. Project Board
-
-- Customizable columns
-- Drag-and-drop interface
-- Flexible views
+The visual hub for your project's workflow.
+-   Customizable columns
+-   Drag-and-drop interface
+-   Flexible list and board views
 
 ### 3. Team Management
+Tools for managing the people on your project.
+-   Role assignments and permissions
+-   Capacity planning and allocation
+-   Resource costing
 
-- Role assignments
-- Capacity planning and allocation
-- Modules and release planning
-- Resource Costing
+### 4. Modules and Releases
+Features for organizing work into larger chunks.
+-   Modules for grouping related work items
+-   Release planning to track versions
 
-### 4. Reports & Analytics
+### 5. Reports & Analytics
+Powerful tools for monitoring project health.
+-   Progress tracking and variance analysis
+-   Velocity charts
+-   Detailed time tracking
 
-- Progress tracking
-- Velocity charts
-- Time tracking
+## Key Benefits
 
-## Benefits
+| Benefit                 | Description                                                   |
+| ----------------------- | ------------------------------------------------------------- |
+| **Better Organization** | Provides a clear project structure and organized workflows.   |
+| **Improved Efficiency** | Streamlines processes with resource optimization and time management. |
+| **Project Insights**    | Offers quality assurance through regular monitoring and reporting. |
 
-1. **Better Organization**
 
-   - Clear project structure
-   - Organized workflows
-   - Easy progress tracking
-
-2. **Improved Efficiency**
-
-   - Streamlined processes
-   - Resource optimization
-   - Time management
-   - Project Insights
-
-3. **Quality Assurance**
-   - Consistent standards
-   - Regular monitoring
-   - Customer satisfaction
-
-::: tip Getting Started
-Ready to begin? Check out our guides on:
-
-- [Creating Projects](./creating-projects)
-- [Adding Team Members](./adding-users)
-- [Setting Milestones](./milestones)
-  :::
-
-::: warning Remember
-Good project management is key to project success. Take time to understand and implement these principles in your projects.
+::: tip Remember
+Good project management is the key to project success. Take the time to understand and implement these principles in your projects to achieve your goals.
 :::

@@ -1,154 +1,86 @@
 ---
-title: Getting Started with Zymmr
-description: A comprehensive guide to getting started with Zymmr's project management features
+title: Getting Started Guide for Zymmr Users
+description: A step-by-step guide for new users on how to navigate projects, work on tasks, and collaborate with your team in Zymmr.
 head:
   - - meta
     - name: keywords
-      content: getting started, guide, tutorial, project management, zymmr setup
+      content: getting started, user guide, onboarding, zymmr for users, new user guide
 outline: deep
 ---
 
-# Guide for Zymmr User
+# Getting Started Guide for Zymmr Users
 
-Zymmr simplifies project management for scrum and kanban teams. Let's explore how to use Zymmr as an end user, step by step.
-
-## Understanding Zymmr Users
-
-![Zymmr Users Overview](/images/introduction/users.png)
-
-A Zymmr user can be anyone from Development, Operations, or Marketing teams depending upon the type of project you are working on. Zymmr accommodates all types of users who actively make updates on WorkItems.
-
-This guide is specifically designed for Zymmr users who:
-
-- Work on WorkItems as Primary or Secondary Assignees
-- Update WorkItem status
-- Comment on WorkItems
-- Log time on WorkItems
-
-We assume that your Zymmr Admin has already configured the system and granted you access.
-::: info Prerequisites
-🔑 To get started, your admin will need to set up a project for you and/or your team to work in.
+::: info Welcome to Zymmr!
+This guide is designed to get you up and running as a Zymmr end-user. We'll walk you through the key concepts and daily actions you'll perform, from finding your projects to updating your work.
 :::
 
-## What is a Zymmr Project?
+## Who is this Guide For?
 
-A project is a container that groups different WorkItems together. This group of WorkItems could cover either:
+A Zymmr user can be anyone from Development, Operations, or Marketing teams. This guide is specifically designed for team members who will be actively working on projects. Your daily tasks will likely include:
 
-- A single day's work
-- Tasks that will take your team months to complete
+-   Working on **WorkItems** as a Primary or Secondary Assignee
+-   Updating the **Status** of your tasks
+-   Adding **Comments** to collaborate with your team
+-   **Logging time** on your work
 
-### Accessing Projects in Zymmr
-
-::: details Watch Video Tutorial
-
-<iframe 
-  width="100%" 
-  height="400" 
-  src="https://www.youtube.com/embed/0PlOK9DlTUo" 
-  title="Accessing Projects in Zymmr" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-</iframe>
+::: warning Prerequisites
+To get started, your admin will need to set up a project for you and your team to work in.
 :::
 
-1. **Finding Your Projects**:
+## Understanding Zymmr Projects
 
-   - After logging in, you'll be taken to the projects page
-   - Access projects from the top navigation bar
-   - Click on the "Projects" tab to see available projects
-   - Use the search function to find specific projects
+A **Project** in Zymmr is a container that groups related **WorkItems** together. This could cover anything from a single day's work to a complex initiative that will take your team months to complete.
 
-2. **Navigating to a Project**:
-   - Click on your desired project
-   - This will take you to the project's backlog page
+### How to Access Your Projects
+1.  After logging in, you will typically land on the main **Projects** page.
+2.  You can also access this page at any time by clicking the **Projects** tab in the top navigation bar.
+3.  Use the search function to quickly find a specific project.
+4.  Click on your desired project's name to navigate to its main page, which is usually the **Project Backlog**.
 
 ## Working with WorkItems
 
-### What is a WorkItem?
-
-A WorkItem in Zymmr represents a unit of work that can take various forms, including:
-
-- Tasks
-- Bug reports
-- User stories
-- Any item that can be tracked and managed within a project
-
-WorkItems are essential for teams to effectively plan, track progress, collaborate, and generate reports throughout the project lifecycle.
+A **WorkItem** is the fundamental unit of work in Zymmr. It can represent a `Task`, a `Bug`, a `User Story`, or any other piece of work that needs to be tracked.
 
 ### Accessing WorkItems
+You can find and access your assigned work in several places:
+-   The **Project Backlog** list (available in both Kanban and Scrum projects).
+-   The **Active Sprint Board** (for Scrum projects).
+-   The **Global Search** bar in the top navigation header.
 
-There are multiple ways to access WorkItems in Zymmr:
-
-- Project backlog list (available in both Kanban and Scrum projects)
-- Sprint boards (for Scrum projects)
-- Direct search from the top navigation bar
-
-### Updating Fields
-
-Zymmr offers more than 32 standard fields covering essential project management aspects:
-
-- Assignments
-- Estimates
-- Timelines
-- WorkItem tracking
-- Other essential information
 
 ::: tip Auto-Save Feature
-Changes made to field values are automatically saved without requiring manual intervention.
+Updating fields is fast and easy. Simply click on a field (like **Status** or **Assignee**), make your change, and click away. Your changes are **automatically saved** without requiring you to click a "Save" button.
 :::
 
 ### Adding Comments
+Comments are how you keep your team informed about your progress.
+-   **Mentioning Team Members**: To notify a specific person, type `@` in your comment, begin typing their name, and select them from the dropdown list. They will receive a notification about your comment.
 
-Comments are text-based updates to keep your team informed about WorkItem progress.
+### Logging Your Work
+1.  Open the work item.
+2.  Click the Time Log tab below milestones.
+3.  Click add button.
+4.  Fill in the required information: `Work Type`, `Date`, `Time Spent`, `Billable` and a `Description`.
+5.  Click **Add** to save your time log.
 
-::: tip Mentioning Team Members
-To notify specific team members:
+## Understanding Your Workflow
 
-1. Type @ in your comment
-2. Enter their name
-3. Select from the dropdown list
-4. The mentioned person will receive a notification
-   :::
+A **Workflow** in Zymmr is like a recipe that guides a task from start to finish. It is defined by a series of statuses and the actions that move a task between them.
 
-### Logging Work
+### Basic Workflow States
+At a minimum, a WorkItem typically moves through these basic states:
 
-To add a work log:
+| State         | Description                     |
+| :------------ | :------------------------------ |
+| **New**       | The task has been created.      |
+| **In Progress**| You are actively working on it. |
+| **Done**        | The work is complete.           |
 
-1. Open the WorkItem
-2. Click "More" in the top-right corner
-3. Select "Add Time Log"
-4. Fill in the required information:
-   - Work Type (e.g., Development, Testing, Meeting)
-   - Date Started
-   - Time Spent
-   - Comments
-5. Click "Add" to save
+### How to Change a WorkItem's Status
+In Zymmr, you manage a WorkItem's workflow through the **Status** field.
+-   When you click the **Status** field on a WorkItem, it will show you a dropdown of only the available next steps in the workflow.
+-   This ensures that work follows a consistent process and progress is tracked effectively.
 
-### WorkItem Workflow
-
-A workflow in Zymmr is like a recipe that guides you through the steps to get work done. WorkItems follow a defined workflow that is managed through states and transitions (actions).
-
-#### Basic Workflow States
-
-At minimum, a WorkItem goes through 3-4 basic states:
-
-- New
-- In Progress
-- Done
-- On Hold (optional)
-
-::: tip Finding Available States
-In Zymmr, workflow states are managed through the 'Status' field. This field shows you the next available states your WorkItem can transition to.
-:::
-
-The workflow ensures that:
-
-- Work follows a consistent process
-- Teams can track progress effectively
-- Status changes are properly documented
-- Work moves through appropriate stages
-
-::: info Status Transitions
-Status changes follow a predefined path ensuring proper workflow management and tracking. Your admin can customize these workflows to match your team's process.
+::: info Workflows are Customizable
+Your Zymmr administrator can customize workflows to perfectly match your team's process, so the statuses you see may be different from the basic examples above.
 :::

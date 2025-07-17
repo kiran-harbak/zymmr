@@ -33,13 +33,13 @@ The chart displays three lines that together provide a complete picture of your 
 ## How to Access and Use Burndown Charts
 
 ### Accessing the Chart
-1.  Navigate to the **Projects** tab from the main menu.
-2.  Select the specific project you want to track.
+1.  Navigate to the **Projects** tab from navbar.
+2.  Select the specific project you want to track, clicking on its title.
 3.  In the project's left-hand menu, click on the **Burndown Chart** option.
 
 ### Configuring and Interpreting the Chart
-1.  **Configure Metric**: At the top of the chart, choose whether to display the data in **Story Points** or **Effort**.
-2.  **Toggle Extrapolation**: You can turn the **Extrapolation Line** on or off based on your preference for forecasting.
+1.  **Configure Metric**: At the top of the chart, choose the sprint and, choose whether to display the data in **Story Points** or **Effort**.
+2.  **Toggle Extrapolation**: You can turn the **Extrapolation Line** on or off by clicking on extrapolation legend label on chart, based on your preference for forecasting.
 3.  **Analyze the Lines**:
     -   Compare the **Work Remaining** line to the **Guideline**. If your team's remaining work is consistently above the guideline, it may indicate a risk of not completing the work on time.
     -   Use the **Extrapolation Line** to predict a potential completion date based on the team's current pace.

@@ -30,7 +30,7 @@ The Zymmr login process ensures secure access to your organization's workspace. 
 
 | Field             | Description                      | Required |
 | ----------------- | -------------------------------- | -------- |
-| Organizational ID | Your company's unique identifier | Yes      |
+| Organizational ID | Your company's unique identifier (Typically an Email Id) | Yes      |
 | Password          | Your secure password             | Yes      |
 
 ### Step 3: Authentication

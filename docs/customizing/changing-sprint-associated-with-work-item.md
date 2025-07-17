@@ -11,7 +11,7 @@ outline: deep
 # Changing a Work Item's Sprint
 
 ::: info Overview
-As project priorities evolve, you may need to move a work item from one sprint to another. Zymmr provides several flexible methods to change a work item's associated sprint, ensuring your sprint plan always reflects the team's current focus.
+As project priorities evolve, you may need to move a work item from one sprint to another. Zymmr provides several flexible methods to change a work item's associated sprint, ensuring your sprint plan always reflects the team's current focus. This feature is for scrum project work items. 
 :::
 
 ## Method 1: Drag and Drop
@@ -27,7 +27,7 @@ This is the quickest and most visual method, ideal for when you are viewing the 
 This method is useful when you are already viewing or editing a specific work item.
 
 1.  Open the detailed view of the work item you want to move.
-2.  Locate the **Sprint** section in the right-hand panel.
+2.  Locate the **Sprint** section in the tabs present below Milestones.
 3.  Click on the dropdown menu and select the desired sprint from the list. The change is saved automatically.
 
 ::: info Sprint History

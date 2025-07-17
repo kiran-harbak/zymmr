@@ -21,28 +21,22 @@ Time logging helps track effort spent on work items. This feature enables teams 
 ### Step 1: Access Time Entry
 
 1. Open the work item
-2. Click the **Log Time** button
-3. Access the time entry form
+2. Click the Time Log tab below milestones.
+3. Click add button.
+4. fill the time log entry form
 
 ### Step 2: Enter Time Details
 
 | Field       | Description                      | Required |
 | ----------- | -------------------------------- | -------- |
-| Time Spent  | Duration of work performed       | Yes      |
+| Work type   | Type of work (e.g., Development) | Yes      |
 | Work Date   | Date when work was performed     | Yes      |
+| Time Spent  | Duration of work performed       | Yes      |
+| Billable    | Is the time billable (checkbox)  | ---      | 
 | Description | Details about the work done      | No       |
-| Activity    | Type of work (e.g., Development) | Yes      |
 
-### Step 3: Additional Options
 
-Configure optional settings:
-
-- Add work notes
-- Select billing category
-- Specify remaining time
-- Add time tracking tags
-
-### Step 4: Save Time Log
+### Step 3: Save Time Log
 
 Click **Save** to record the time entry.
 

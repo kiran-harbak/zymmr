@@ -19,7 +19,6 @@ Zymmr's burnup chart is a powerful visual tool that helps Agile teams track comp
 ### Choice of Metrics
 You can configure the chart to display progress based on your team's preferred estimation method:
 -   **Story Points**: Ideal for teams using story points to estimate work.
--   **Effort**: Suitable for teams tracking progress in hours or days.
 
 ### The Three Key Lines
 The chart's power comes from its three distinct lines, which tell a complete story of your project's progress.
@@ -33,16 +32,15 @@ The chart's power comes from its three distinct lines, which tell a complete sto
 ## How to Access and Use Burnup Charts
 
 ### Accessing the Chart
-1.  Navigate to the **Projects** tab from the main menu.
-2.  Select the specific project you want to track.
+1.  Navigate to the **Projects** tab from navbar.
+2.  Select the specific project you want to track, clicking on its title.
 3.  In the project's left-hand menu, click on the **Burnup Chart** option.
 
 ### Configuring and Interpreting the Chart
-1.  **Configure Metric**: At the top of the chart, choose whether to display the data in **Story Points** or **Effort**.
+1.  **Configure Metric**: At the top of the chart, choose the sprint.
 2.  **Analyze the Lines**:
     -   Monitor the **Scope Line** for any unexpected increases, which signal that new work has been added.
     -   Compare the **Work Done** line to the **Guideline**. If your team's progress is consistently below the guideline, the project may be at risk of delay.
-3.  **Filter for Detail**: Use the available filters to narrow the chart's focus by sprints, teams, or custom date ranges for more detailed analysis.
 
 ## Benefits of Using Burnup Charts
 

@@ -20,8 +20,9 @@ Linking work items helps establish relationships between related tasks. This fea
 ### Step 1: Access Link Feature
 
 1. Navigate to the source work item
-2. Click the **Link** button in the toolbar
-3. Choose link operation
+2. Click the **Related Task** tab located below milestones
+3. Click the **Link Issue** button in the toolbar
+4. Choose link operation
 
 ### Step 2: Select Link Type
 
@@ -45,17 +46,18 @@ Linking work items helps establish relationships between related tasks. This fea
 
 Access linked items through:
 
-- Relationships tab
-- Work item details
-- Quick view panel
+1. Navigate to the source work item
+2. Click the **Related Task** tab located below milestones
+3. find the related tasks list.
 
 ### Remove Links
 
 To remove a link:
 
-1. Open work item
-2. Navigate to links section
-3. Click remove icon
+1. Navigate to the source work item
+2. Click the **Related Task** tab located below milestones
+3. find the work item link to be removed from the related tasks list.
+4. Click remove link icon
 
 ::: tip Best Practices
 
