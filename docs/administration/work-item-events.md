@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Work Item Events
+# Work Item Events
 
 ::: info Overview
 The Work Item Events feature, found in **Global Settings** ⚙️, provides a sophisticated mechanism to ensure crucial data is captured at specific moments in your project lifecycle. Unlike general forms linked to workflow transitions, Work Item Events are designed to trigger a data entry modal whenever a **specific, pre-defined work item field is changed** within a designated project. This is invaluable for enforcing data completeness and improving audit trails.

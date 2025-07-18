@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Workflow States
+# Workflow States
 
 ::: info Overview
 The Workflow States feature, located in **Global Settings** ⚙️, is where you create and manage the individual steps or stages that make up your project lifecycles. Think of these states as the fundamental, reusable building blocks for your processes—stages like `Open`, `In Progress`, `In Review`, and `Done`. Before you can build an end-to-end process in the main **Workflows** feature, you must first define all the possible states here.

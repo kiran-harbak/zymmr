@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Your Zymmr Leave Calendar
+# Leave Calendar
 
 ::: info Overview
 The Leave Calendar, found within your personal profile, is your central hub for managing your time off. Here, you can submit new leave requests, view the status of past and present requests, and see a history of your applications. Any approved leave marks your selected days as non-working days, which is critical information used for accurate resource and capacity planning.

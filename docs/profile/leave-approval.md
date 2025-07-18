@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Leave Approval: Managing Your Team's Time Off Requests
+# Leave Approval
 
 ::: info Overview
 The Leave Approval page, located in your personal profile, is your dedicated dashboard for managing time off requests submitted by your team members. This is where you can review, approve, or reject leave applications, ensuring that team availability is managed effectively and resource planning remains accurate.

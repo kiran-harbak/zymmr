@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Workflows
+# Workflows
 
 ::: info Overview
 The Workflows feature, located in **Global Settings** ⚙️, is the heart of your process management in Zymmr. A workflow defines the specific set of steps, or **states**, that a work item can move through from creation to completion. By creating custom workflows, you can enforce consistent processes and ensure every task, bug, or story follows a predefined path.

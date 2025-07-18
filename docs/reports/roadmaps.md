@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Roadmaps in Zymmr
+# Roadmaps 
 
 ::: info Overview
 Roadmaps in Zymmr provide a high-level, structured view of your project timelines and tasks. Presented in a familiar table format, they function much like a Gantt chart, allowing for clear visualization and management of project milestones and activities over time.

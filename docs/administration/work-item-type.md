@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Work Item Types
+# Work Item Types
 
 ::: info Overview
 Work Item Types are the fundamental categories you use to classify tasks and other work within your projects. Customizing types like `Task`, `Bug`, `Epic`, or `Change Request` allows you to tailor Zymmr to your team's specific workflow and terminology, ensuring clarity and consistency across all projects. This feature is managed in **Global Settings** ⚙️.

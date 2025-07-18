@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Workflow Schemes
+# Workflow Schemes
 
 ::: info Overview
 Workflow Schemes are a powerful administrative feature in **Global Settings** ⚙️ that act as a bridge between your project's **Work Item Types** and its **Workflows**. They allow you to define that `Bugs` should follow a different process than `Tasks` or `Stories`, all within the same project.

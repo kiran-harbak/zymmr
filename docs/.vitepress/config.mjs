@@ -302,16 +302,16 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Gantt Chart", link: "/reports/gantt-feature" },
-          { text: "Roadmaps", link: "/features/roadmaps" },
+          { text: "Roadmaps", link: "/reports/roadmaps" },
           {
             text: "Project Insights Dashboard",
             link: "/reports/project-insights-dashboard",
           },
           {
             text: "Resource Management",
-            link: "/features/resource-management",
+            link: "/reports/resource-management",
           },
-          { text: "Timesheet", link: "/features/timesheet" },
+          { text: "Timesheet", link: "/reports/timesheet" },
           {
             text: "Hierarchical Reports",
             link: "/reports/hierarchica-reports",

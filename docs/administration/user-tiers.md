@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup User Tiers
+# User Tiers
 
 ::: info Overview
 The User Tier feature, located in **Global Settings** ⚙️, is a powerful tool for standardizing how resource costs are calculated across your projects. By creating tiers based on roles or seniority (e.g., `Junior Developer`, `Senior Analyst`), you can assign a default cost to each tier. This streamlines financial planning by automatically applying a baseline cost for every team member, while still allowing for project-specific overrides.

@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Priorities
+# Priorities
 
 ::: info Overview
 The Priority feature, located in **Global Settings** ⚙️, allows you to create and manage the levels of urgency that can be assigned to work items. Defining clear priorities is essential for helping your team focus on the most critical tasks first. Each priority level is assigned a unique color, providing an immediate visual cue across boards, backlogs, and reports.

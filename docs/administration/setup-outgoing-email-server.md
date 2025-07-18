@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Outgoing Email Server
+# Outgoing Email Server
 
 ::: info Overview
 Configuring the outgoing email server (SMTP) is a critical administrative task that enables Zymmr to send email notifications for events like work item assignments, comments, and status changes. This guide walks you through the setup process.

@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Work Item Type Schemes
+# Work Item Type Schemes
 
 ::: info Overview
 While **Work Item Types** define the individual categories of work (`Bug`, `Task`), a **Work Item Type Scheme** is a collection or "package" of these types. Schemes allow you to define different sets of available work types for different kinds of projects, ensuring each project only shows relevant options. This feature is managed in **Global Settings** ⚙️.

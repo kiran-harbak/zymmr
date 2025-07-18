@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Forms
+# Forms
 
 ::: info Overview
 The Forms feature, located in **Global Settings** ⚙️, provides a powerful way to collect specific, structured information at critical points in your project workflows. Instead of just moving a work item from one status to another, you can configure a form to appear, ensuring that users provide necessary details before a transition is completed. This is essential for standardizing data, enforcing compliance, and improving reporting.

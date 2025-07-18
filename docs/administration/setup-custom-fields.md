@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Custom Fields
+# Custom Fields
 
 ::: info Overview
 Custom Fields are a powerful administrative feature in **Global Settings** ⚙️ that allow you to extend Zymmr's work items beyond their default fields. By creating your own fields, you can capture specific information tailored to your organization's unique processes, such as tracking a "Customer ID," a "QA Sign-off" checkbox, or a "Target Release Date."

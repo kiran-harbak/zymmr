@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Zymmr OKRs: Setting and Tracking Your Strategic Goals Through Executable Work
+# Zymmr OKRs
 
 ::: info Overview
 The OKR (Objectives and Key Results) feature in Zymmr provides a structured framework for setting, communicating, and tracking ambitious goals. It allows you to connect high-level ambitions (**Objectives**) with specific outcomes (**Key Results**), and further link these results to the actual **Work Items** that drive their progress. This ensures everyone is aligned, with a clear path from daily work to strategic achievements.
