@@ -115,6 +115,14 @@ export default defineConfig({
             link: "/projects/releases",
           },
           {
+            text: "Attributes",
+            link: "/projects/attributes",
+          },
+          {
+            text: "Project Costing",
+            link: "/features/project-costing",
+          },
+          {
             text: "Project Settings",
             link: "/projects/project-settings",
           },
@@ -186,10 +194,6 @@ export default defineConfig({
             link: "/features/capacity-planning",
           },
           { text: "Milestones", link: "/features/milestones" },
-          {
-            text: "Project Costing",
-            link: "/features/project-costing",
-          },
           { text: "Sprint", link: "/features/sprint" },
         ],
       },
@@ -228,6 +232,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "User Management", link: "/administration/user-management" },
+          { text: "Competencies", link: "/administration/competencies" },
           { text: "Roles", link: "/administration/roles" },
           { text: "Work Schedule", link: "/administration/work-schedule" },
           {
@@ -244,9 +249,44 @@ export default defineConfig({
             link: "/administration/setup-work-item-type-schemes",
           },
           {
+            text: "Workflow",
+            link: "/administration/setup-workflow",
+          },
+          {
             text: "Workflow Schemes",
             link: "/administration/setup-workflow-schemes",
           },
+          { text: "OKR", link: "/administration/okr" },
+          { text: "Forms", link: "/administration/forms" },
+          { text: "Project Status", link: "/administration/project-status" },
+          {
+            text: "Leave Management",
+            link: "/administration/leave-management",
+          },
+          {
+            text: "Integration",
+            link: "/administration/integration",
+          },
+          {
+            text: "Global Admins",
+            link: "/administration/global-admins",
+          },
+          {
+            text: "Work Item Events",
+            link: "/administration/work-item-events",
+          },
+          {
+            text: "License",
+            link: "/administration/license",
+          },
+          { text: "Gantt Color", link: "/administration/gantt-color" },
+          {
+            text: "Workflows States",
+            link: "/administration/workflow-states",
+          },
+          { text: "Priority", link: "/administration/priority" },
+          { text: "User Tier", link: "/administration/user-tiers" },
+          { text: "Look & feel", link: "/administration/look-feels" },
           {
             text: "Custom Fields",
             link: "/administration/setup-custom-fields",
@@ -272,7 +312,10 @@ export default defineConfig({
             link: "/features/resource-management",
           },
           { text: "Timesheet", link: "/features/timesheet" },
-          { text: "Hierarchical Reports", link: "/reports/hierarchica-reports" },
+          {
+            text: "Hierarchical Reports",
+            link: "/reports/hierarchica-reports",
+          },
           { text: "Analytics Report", link: "/reports/analytics-report" },
           { text: "Report Scheduling", link: "/reports/report-scheduling" },
           { text: "Burn-up Charts", link: "/reports/burnup-charts" },
@@ -285,6 +328,16 @@ export default defineConfig({
         collapsed: false,
         items: [{ text: "Introduction", link: "/smart-features/intro" }],
       }, */
+      {
+        text: "My Profile",
+        collapsed: false,
+        items: [
+          { text: "User Profile", link: "/profile/user-profile" },
+          { text: "Leave Calender", link: "/profile/leave-calender" },
+          { text: "Leave Approval", link: "/profile/leave-approval" },
+          { text: "Work Schedule", link: "/profile/work-schedule" },
+        ],
+      },
       {
         text: "Guide",
         collapsed: false,
