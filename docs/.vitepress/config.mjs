@@ -231,6 +231,10 @@ export default defineConfig({
         text: "Zymmr Administration",
         collapsed: false,
         items: [
+          {
+            text: "Project Management",
+            link: "/administration/project-management",
+          },
           { text: "User Management", link: "/administration/user-management" },
           { text: "Competencies", link: "/administration/competencies" },
           { text: "Roles", link: "/administration/roles" },
