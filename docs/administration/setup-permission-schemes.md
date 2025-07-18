@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Setup Permission Schemes
+# Permission Schemes
 
 ::: info Overview
 Permission Schemes are a powerful administrative feature in **Global Settings** ⚙️ that allow you to create reusable sets of permissions. By associating a scheme with one or more projects, you can efficiently and consistently manage what users in different roles can do within those projects.

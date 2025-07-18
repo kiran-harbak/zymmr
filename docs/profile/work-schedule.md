@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Your Zymmr Work Schedule
+# Work Schedule
 
 ::: info Overview
 The Work Schedule page is your personal, view-only screen that defines your standard working days and hours as configured by your system administrator.
