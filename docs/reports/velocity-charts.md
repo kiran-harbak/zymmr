@@ -11,7 +11,17 @@ outline: deep
 # Velocity Charts
 
 ::: info Overview
-Zymmr's velocity chart is an essential tool for Agile teams to measure and track their productivity across multiple sprints. By visualizing the amount of work completed in each iteration, the velocity chart helps teams understand their capacity, improve predictability, and make more informed commitments for future sprints.
+Zymmr's velocity chart is an essential tool for Agile teams to measure and track their productivity across multiple sprints. By visualizing the amount of work that was **completed** in each iteration, the velocity chart helps teams understand their capacity based on past performance, improve predictability, and make more informed commitments for future sprints.
+:::
+
+::: tip How Velocity is Calculated: A Snapshot in Time
+It is important to understand that the Velocity Chart is a **historical report**, not a live one.
+
+When a sprint is marked as "complete" in Zymmr, the system takes a **"snapshot"** of the sprint's data at that exact moment. This snapshot records the total 'Planned' work and the total 'Completed' work.
+
+The chart is built using these unchangeable, historical snapshots. This means any changes made to work items **after** their sprint has been completed will **not** alter the chart.
+
+For example, if you move a completed work item out of a past sprint, the velocity for that sprint will remain the same because its snapshot has already been recorded.
 :::
 
 ## Key Features of Zymmr Velocity Charts
@@ -25,7 +35,7 @@ Teams can track their velocity using their preferred estimation method, providin
 ### Sprint Performance Comparison
 The chart displays two key bars for each sprint, allowing teams to compare their estimates against their actual performance:
 -   **Planned (Committed)**: The total amount of work the team committed to at the start of the sprint.
--   **Actual (Completed)**: The total amount of work the team successfully completed by the end of the sprint.
+-   **Actual (Completed)**: The total amount of work the team successfully completed by the end of the sprint (as recorded at the time of sprint completion).
 
 ### Trend Analysis and Forecasting
 By visualizing performance over time, the velocity chart helps identify trends in team productivity and predict future performance, enabling more realistic and achievable sprint planning.
@@ -33,8 +43,8 @@ By visualizing performance over time, the velocity chart helps identify trends i
 ## How to Access and Use Velocity Charts
 
 ### Accessing the Chart
-1.  Navigate to the **Projects** tab from navbar.
-2.  Select the specific project you want to track, clicking on its title.
+1.  Navigate to the **Projects** tab from the navbar.
+2.  Select the specific project you want to track by clicking on its title.
 3.  In the project's left-hand menu, click on the **Velocity Chart** option.
 
 ### Configuring and Interpreting the Chart
@@ -52,5 +62,5 @@ By visualizing performance over time, the velocity chart helps identify trends i
 -   **Team Motivation**: A stable or increasing velocity can be a great motivator, showcasing the team's growth and achievements.
 
 ::: tip Improve Your Predictability
-By leveraging velocity charts in Zymmr, your team can gain valuable insights into its performance, make more accurate sprint plans, and continuously improve its workflow for greater efficiency and productivity.
+By leveraging velocity charts in Zymmr, your team can gain valuable insights into its past performance, make more accurate sprint plans, and continuously improve its workflow for greater efficiency and productivity.
 :::
