@@ -268,10 +268,6 @@ export default defineConfig({
             link: "/administration/leave-management",
           },
           {
-            text: "Integration",
-            link: "/administration/integration",
-          },
-          {
             text: "Global Admins",
             link: "/administration/global-admins",
           },
@@ -298,6 +294,28 @@ export default defineConfig({
           {
             text: "Outgoing Email Server",
             link: "/administration/setup-outgoing-email-server",
+          },
+        ],
+      },
+      {
+        text: "Integrations",
+        collapsed: false,
+        items: [
+          {
+            text: "Overview",
+            link: "/integrations/",
+          },
+          {
+            text: "GitHub Integration",
+            link: "/integrations/github",
+          },
+          {
+            text: "Bitbucket Integration",
+            link: "/integrations/bitbucket",
+          },
+          {
+            text: "Bitbucket Server Integration",
+            link: "/integrations/bitbucket-server",
           },
         ],
       },
