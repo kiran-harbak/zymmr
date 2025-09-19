@@ -30,11 +30,36 @@ To access the Data Importer functionality:
 
 The Data Importer currently supports importing:
 
-| Import Type | Description |
-| ----------- | ----------- |
-| Work Items  | Tasks, bugs, epics, and other work item types |
-| Time Logs   | Time tracking entries associated with work items |
-| Comments    | Discussion threads and feedback on work items |
+<table>
+<thead>
+<tr>
+<th>Import Type</th>
+<th>Description</th>
+<th>Template</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Work Items</td>
+<td>Tasks, bugs, epics, and other work item types</td>
+<td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:20px;height:20px;display:inline-block;vertical-align:middle;margin-right:8px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg><a href="https://docs.google.com/spreadsheets/d/1RB4OLkHLJ7z0waUaZgO0YxMH0B2UzdBZJKfTqBfly8M/edit?usp=sharing">Work Item Import Template</a></td>
+</tr>
+<tr>
+<td>Time Logs</td>
+<td>Time tracking entries associated with work items</td>
+<td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:20px;height:20px;display:inline-block;vertical-align:middle;margin-right:8px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg><a href="https://docs.google.com/spreadsheets/d/1FA38HYBSjJoQniaSuVClcV0Mm1bDDqbdTH4YV6M91H8/edit?usp=sharing">Time Log Import Template</a></td>
+</tr>
+<tr>
+<td>Comments</td>
+<td>Discussion threads and feedback on work items</td>
+<td><em>Template coming soon</em></td>
+</tr>
+</tbody>
+</table>
+
+::: tip Import Templates Available
+We've created comprehensive import templates with detailed field documentation, validation rules, and sample data. These templates include step-by-step guides to help you prepare your data correctly and avoid common import errors.
+:::
 
 ## Import Process
 
@@ -123,7 +148,31 @@ After the import is complete, verify that your data has been imported correctly 
 
 ## Preparing Your Import File
 
-For successful data import, ensure your CSV file follows these guidelines:
+### Using Import Templates
+
+We strongly recommend using our pre-built import templates to ensure successful data imports:
+
+**<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:20px;height:20px;display:inline-block;vertical-align:middle;margin-right:8px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg>Work Item Import Template**
+- **Link:** [Work Item Import Template](https://docs.google.com/spreadsheets/d/1RB4OLkHLJ7z0waUaZgO0YxMH0B2UzdBZJKfTqBfly8M/edit?usp=sharing)
+- **Contains:** Complete field documentation, validation rules, sample data, and troubleshooting guide
+- **Key Features:** Field requirements, format examples, common errors, and step-by-step import process
+
+**<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:20px;height:20px;display:inline-block;vertical-align:middle;margin-right:8px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg>Time Log Import Template**  
+- **Link:** [Time Log Import Template](https://docs.google.com/spreadsheets/d/1FA38HYBSjJoQniaSuVClcV0Mm1bDDqbdTH4YV6M91H8/edit?usp=sharing)
+- **Contains:** Duration formats, user validation, work item linking, and realistic sample entries
+- **Key Features:** Time format guidance, billable/non-billable examples, and validation troubleshooting
+
+::: tip How to Use Templates
+1. **Make a copy** of the template to your Google Drive
+2. **Review the "Import Guide & Format"** tab for complete documentation
+3. **Use the "Sample Data"** tab as reference for your data structure
+4. **Fill your data** in the designated sheet following the format guidelines
+5. **Export as CSV** when ready to import
+:::
+
+### Manual File Preparation Guidelines
+
+If creating your own CSV file, ensure it follows these guidelines:
 
 ### User Fields
 Fields such as Owner, Primary Assignee, Secondary Assignee, and Reporter must contain the email address of the user in the corresponding column.
@@ -146,6 +195,9 @@ You can map custom fields from your file to custom fields in Zymmr.
 ## Best Practices
 
 ::: tip For Successful Imports
+- **Use our import templates** - Start with our pre-built templates to avoid common formatting issues
+- **Review template documentation** - Each template includes comprehensive guides and validation rules
+- **Test with sample data first** - Use the provided sample data to understand the correct format
 - Prepare your CSV file with clean, consistent data
 - Ensure all required fields are included
 - Verify user email addresses exist in the system
@@ -163,5 +215,13 @@ If you encounter any issues during the import process, check for validation warn
 | Incorrect date formats | Format dates as YYYY-MM-DD or YYYY-MM-DD HH:MM:SS |
 | Missing required fields | Ensure all required fields are mapped |
 | Invalid field values | Check validation warnings and correct data |
+
+::: warning Need Help with Format Issues?
+If you're experiencing data format or validation errors, consult our import templates:
+- **Work Items:** <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:16px;height:16px;display:inline-block;vertical-align:middle;margin-right:4px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg>[Work Item Import Template](https://docs.google.com/spreadsheets/d/1RB4OLkHLJ7z0waUaZgO0YxMH0B2UzdBZJKfTqBfly8M/edit?usp=sharing) - Check the "Validation Rules" and "Troubleshooting" tabs
+- **Time Logs:** <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" style="width:16px;height:16px;display:inline-block;vertical-align:middle;margin-right:4px;"><path fill="#169154" d="M29,6H15.744C14.781,6,14,6.781,14,7.744v7.259h15V6z"></path><path fill="#18482a" d="M14,33.054v7.202C14,41.219,14.781,42,15.743,42H29v-8.946H14z"></path><path fill="#0c8045" d="M14 15.003H29V24.005000000000003H14z"></path><path fill="#17472a" d="M14 24.005H29V33.055H14z"></path><g><path fill="#29c27f" d="M42.256,6H29v9.003h15V7.744C44,6.781,43.219,6,42.256,6z"></path><path fill="#27663f" d="M29,33.054V42h13.257C43.219,42,44,41.219,44,40.257v-7.202H29z"></path><path fill="#19ac65" d="M29 15.003H44V24.005000000000003H29z"></path><path fill="#129652" d="M29 24.005H44V33.055H29z"></path></g><path fill="#0c7238" d="M22.319,34H5.681C4.753,34,4,33.247,4,32.319V15.681C4,14.753,4.753,14,5.681,14h16.638 C23.247,14,24,14.753,24,15.681v16.638C24,33.247,23.247,34,22.319,34z"></path><path fill="#fff" d="M9.807 19L12.193 19 14.129 22.754 16.175 19 18.404 19 15.333 24 18.474 29 16.123 29 14.013 25.07 11.912 29 9.526 29 12.719 23.982z"></path></svg>[Time Log Import Template](https://docs.google.com/spreadsheets/d/1FA38HYBSjJoQniaSuVClcV0Mm1bDDqbdTH4YV6M91H8/edit?usp=sharing) - Review common error solutions and format examples
+
+These templates include detailed troubleshooting guides with specific solutions for validation errors.
+:::
 
 For additional assistance, please contact our support team through the [Contact Us](/contact-us) page. 
