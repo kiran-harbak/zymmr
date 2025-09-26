@@ -26,6 +26,33 @@ To access the Data Importer functionality:
 2. Click on the **Settings** gear icon (⚙️) in the top-right navigation bar next to your profile avatar
 3. In the sidebar that appears, select **Data Importer**
 
+## The Import Dashboard: Your Import History
+
+The main Data Importer screen serves as a dashboard, providing a complete history of all past import operations. It helps you track, review, and troubleshoot your import history.
+
+-   **+ New Import Button**: The primary button, located in the top right, to start a fresh data import.
+
+The dashboard table includes the following information:
+
+| Column                     | Description                                                                                             |
+| :------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **DATE**                   | The timestamp indicating when the import was performed. Click this to view the Import Details page.       |
+| **IMPORTED PROJECT**       | The Zymmr project into which the data was imported.                                                     |
+| **TYPE**                   | Specifies whether the import contained `Work Items` `Time Log` or `Comments` data.                                 |
+| **FILE**                   | The name of the original CSV file that was uploaded.                                                    |
+| **IMPORTED WORK ITEM COUNT**| The number of records from the file that were successfully imported into Zymmr.                         |
+| **TOTAL WORK ITEM COUNT**  | The total number of records found in the uploaded CSV file, helping you spot any import discrepancies.  |
+
+## The Import Details:
+
+You can access the details of any past import by navigating to the **Import Dashboard** and clicking the **DATE** for the desired entry.
+
+- **Import Context Header**: The header at the top of the page provides the context for the import, showing the Project, the data Type (e.g., Work Item), and the name of the File that was used. On the right side of this header is the Column Mappings Button, which allows you to re-open the mapping modal to review or adjust the settings for this specific import.
+
+- **Import Summary**: A box below the header provides vital statistics, such as Found X records and Y columns and confirms if any warnings were found during the validation process.
+
+- **Data Preview Table**: This table displays the actual data from your CSV file as it was read by Zymmr. It allows you to visually verify that the correct data was processed and troubleshoot any issues by reviewing the source data.
+
 ## Supported Import Types
 
 The Data Importer currently supports importing:
@@ -63,18 +90,21 @@ We've created comprehensive import templates with detailed field documentation, 
 
 ## Import Process
 
-### Step 1: Select Project
+### Step 1: Start New Import
+Start the import process by clicking on the **New Import** button present on top right section of data importer page.
+
+### Step 2: Select Project
 
 Begin by selecting the project you want to import the data into. This ensures that all imported data is associated with the correct project in your Zymmr instance.
 
-### Step 2: Choose Import Type
+### Step 3: Choose Import Type
 
 Select what type of data you want to import:
 - Work Items
 - Time Logs
 - Comments
 
-### Step 3: Upload CSV File
+### Step 4: Upload CSV File
 
 Click on the "Attach" button under the "Import File" label and select the CSV file you want to import.
 
@@ -82,7 +112,7 @@ Once your file is selected:
 - The importer will upload the data into your instance under the "files" section for future reference
 - You'll see details about your uploaded file, including the total number of records found and the number of columns in the file
 
-### Step 4: Map Columns
+### Step 5: Map Columns
 
 ::: info Note
 The following steps assume you've selected **Work Items** as your import type in step 2. The mapping interface will show different fields based on your selected import type.
@@ -103,7 +133,7 @@ Click on the "Map Columns" button to open the column mapping interface:
 | Owner (Created By) | Current global user will be set as owner |
 | Status | Must be mapped to "Workflow State" field |
 
-### Step 5: Validate Data
+### Step 6: Validate Data
 
 Click the "Validate" button to check your data for any issues:
 
@@ -128,7 +158,7 @@ You can choose to:
 - Update the data format in your file
 - Ignore the warnings and proceed with the import
 
-### Step 6: Start Import
+### Step 7: Start Import
 
 Click the "Start Import" button to begin the import process:
 
@@ -142,7 +172,7 @@ Click the "Start Import" button to begin the import process:
 - Do not close or refresh the page until the import process is complete
 - Once complete, you can close the modal by clicking the "Close" button
 
-### Step 7: Verify Imported Data
+### Step 8: Verify Imported Data
 
 After the import is complete, verify that your data has been imported correctly by checking the work items in your project.
 
@@ -223,5 +253,3 @@ If you're experiencing data format or validation errors, consult our import temp
 
 These templates include detailed troubleshooting guides with specific solutions for validation errors.
 :::
-
-For additional assistance, please contact our support team through the [Contact Us](/contact-us) page. 
