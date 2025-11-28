@@ -61,6 +61,14 @@ To modify project settings:
 - Only users with appropriate permissions can modify project settings
   :::
 
+#### Changing Project Lead
+
+When you change the Project Lead, be aware of the following behavior:
+
+::: info Role Assignment Behavior
+When changing the Project Lead, the new Lead is automatically assigned the **Project Manager** role. The previous Lead **retains** their Project Manager role and access. If you need to revoke the previous Lead's administrative access, you must manually remove them from the Project Manager role in the **People** section under Project Settings.
+:::
+
 ### Best Practices
 
 1. Keep project information up-to-date
