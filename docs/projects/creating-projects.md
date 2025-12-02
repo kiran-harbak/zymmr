@@ -53,6 +53,10 @@ Fill in the following additional details as required:
 | Project Lead        | Person overseeing the project                         |
 | Category            | Select relevant category (eg. Product, Support, etc.) |
 
+::: info Automatic Role Assignment
+The user selected as **Project Lead** will automatically be assigned the **Project Manager** role for this project, granting them administrative permissions.
+:::
+
 ::: warning Important
 Fields marked with an asterisk (\*) are mandatory and must be filled before saving.
 :::

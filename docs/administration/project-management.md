@@ -51,7 +51,7 @@ This table provides key information for each project:
 | **Key** `*`       | Enter a short, unique key (e.g., `BMPD`, `AWS`). This will be used as a prefix for work item IDs.      |
 | **Start/End Date**| Use the date pickers to define the project's planned duration.                                          |
 | **Description**   | Provide a detailed overview of the project's goals and scope using the rich text editor.              |
-| **Lead** `*`      | Select the project leader or manager from the dropdown list of users.                                   |
+| **Lead** `*`      | Select the project leader or manager from the dropdown list of users. The selected user will automatically be assigned the **Project Manager** role, granting them administrative permissions for this project. |
 | **Category**      | Select the overall category or classification for this project.                                         |
 
 Click the **Save** button to create the project. It will now appear in the Projects list.
