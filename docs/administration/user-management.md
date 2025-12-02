@@ -18,7 +18,7 @@ User Management is a core administrative function located in **Global Settings**
 
 The main view provides a paginated list of all users in the system, along with tools for managing them.
 
-- **Status Toggle**: switch between all the users, the enabled users, or the disabled users.
+- **Status Toggle**: Switch between all the users, the enabled users, or the disabled users.
 - **Search Field**: Quickly find a specific user by typing their name or email.
 - **Create User Button**: Located in the top right, this button initiates the new user creation process.
 
