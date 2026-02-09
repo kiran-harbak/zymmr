@@ -1,71 +1,92 @@
 ---
-title: Project Costing in Zymmr
-description: A guide to managing and tracking project budgets, resource costs, and expenses in Zymmr.
+title: Project Costing
+description: A comprehensive guide to managing project budgets, defining resource rates, and tracking both labor and operational expenses in Zymmr.
 head:
   - - meta
     - name: keywords
-      content: project costing, budget, expenses, resource cost, financial management, zymmr
+      content: project costing, budget, resource rate, expenses, financial tracking, billable hours, zymmr
 outline: deep
 ---
 
 # Project Costing in Zymmr
 
 ::: info Overview
-The Project Costing feature in Zymmr provides a comprehensive toolkit for managing and tracking all financial aspects of your projects. From setting budgets to monitoring resource costs and logging expenses, it ensures you have a clear and accurate view of your project's financial health.
+The Project Costing feature allows you to manage and track the financial health of your projects with precision. By combining fixed budgets, hourly resource rates, and direct expenses, Zymmr provides a real-time view of your "Total Consumed" versus "Budget Remaining."
 :::
 
-## Accessing Project Costing
+## 1. Accessing Project Costing
 
 1.  From your project list, select the project for which you want to manage costs.
 2.  Navigate to **Project Settings** by clicking the settings icon on the right.
 3.  From the settings menu, choose the **Costing** item.
+4.  This will open the Costing module, which is divided into four main tabs: **Dashboard**, **Budget**, **Resource**, **Resource Expense**, and **Expenses**.
 
-## The Costing Dashboard
+## 2. The Costing Dashboard
 
-Upon entering the Costing section, you are presented with a dashboard that provides a financial snapshot of your project.
+The Dashboard provides a high-level financial snapshot of your project.
 
-| Component                | Description                                                                    |
-| ------------------------ | ------------------------------------------------------------------------------ |
-| **Project Resource Costs** | Displays the cumulative cost of resources based on their hourly rates.         |
-| **Budget Pie Chart**     | A visual representation of the total budget versus the expenses incurred.      |
-| **Expenses Table**       | A detailed table of expenses, which can be viewed in **daily**, **weekly**, or **monthly** formats. |
+### Key Metrics & Visuals
+-   **Financial Cards**: Instantly view your **Total Budget**, **Total Consumed** (Resource costs + Expenses), and **Budget Remaining**.
+-   **Budget Breakdown**: A donut chart visualizing the percentage of the budget used vs. remaining.
+-   **Expenses Timeline**: A grid view showing cost accumulation over time.
 
-## Managing Project Costs
+### Dashboard Controls
+You can customize the data view using the controls at the top:
 
-### Adding the Budget
-1.  Select the **Budget** menu item.
-2.  Enter the total budget amount for the project.
-3.  Select the appropriate currency and click **Save**.
+-   **Billable Time Only**: Check this box to calculate costs based *only* on time logs marked as "Billable." Uncheck it to see the cost of all time spent.
+-   **Show Uncosted Time**: Check this box to highlight time logs where a resource rate has not yet been set (helpful for finding gaps in your data).
+-   **Expense Timeline Controle**: Move forwards and backwards in timeline. Jump to **Today** and Switch the grid view between **Day**, **Week**, or **Month** to analyze costs at different granularities.
 
-### Maintaining Resource Costs
-This section allows you to set project-specific rates for your team members.
-1.  Click **Add a Resource** and select a team member who has been added to the project.
-2.  Their default hourly rate (from their user profile) will be shown.
-3.  You can enter a different **Hourly Rate** if the resource's cost is specific to this project.
+## 3. Setting the Project Budget
 
-### Reviewing Resource Expenses
-1.  Navigate to the **Resource Expenses** menu.
-2.  This view shows the calculated cost of resources based on the time they have logged on work items (`Time Logged × Hourly Rate`).
+Use the **Budget** tab to define the financial ceiling for your project.
 
-### Adding Project Expenses
-For costs not related to resource time (e.g., software licenses, hardware).
-1.  Click on the **Expense** menu item.
-2.  Add a new project expense and enter the associated cost details.
+1.  Enter the **Budget Amount** (e.g., `100000`).
+2.  Select the **Currency** (e.g., `USD`) from the dropdown. All resource costs and expenses will use this currency.
+3.  Click **Update Budget** to save.
 
-## Example Use Case
+## 4. Managing Resource Rates
 
-### Scenario
-You need to manage the financials for a "Website Redesign" project, including setting a budget, tracking developer costs, and logging external expenses.
+The **Resource** tab is where you define how much each team member costs the project per hour.
 
-### Steps
-1.  **Choose Project**: Select the "Website Redesign" project.
-2.  **Access Costing**: Navigate to **Project Settings** → **Costing**.
-3.  **View Dashboard**: Review the pie chart for a quick budget overview.
-4.  **Add Budget**: Go to the **Budget** menu and enter the total project budget (e.g., $50,000 USD).
-5.  **Manage Resource Costs**: Add your developers to the resource cost list, setting their project-specific hourly rates if needed.
-6.  **Review Resource Expenses**: Periodically check the **Resource Expenses** view to see how costs are accumulating based on your team's logged time.
-7.  **Add Other Expenses**: In the **Expense** menu, add costs for items like stock photography licenses or a new server.
+### Adding a Resource Rate
+1.  Click the **+ Add Resource** button.
+2.  In the modal, select a **Resource** (team member) from the dropdown.
+3.  Enter their **Hourly Rate**.
+4.  Click **Save**.
 
-::: tip Stay on Budget
-By diligently utilizing the project costing feature, you can accurately track and manage your project's financials. This ensures you stay within budget and have a clear understanding of where your resources are being allocated.
+### Managing Rates
+-   **Edit**: Click the pencil icon to change a user's hourly rate.
+-   **Delete**: Click the trash can icon to remove a rate configuration.
+
+## 5. Tracking Resource Expenses
+
+The **Resource Expense** tab displays the calculated labor costs based on actual work done.
+
+-   **Automatic Calculation**: Zymmr calculates these figures automatically: `Hours Logged × Defined Hourly Rate`.
+-   **Timeline View**: View labor costs spread across days, weeks, or months.
+-   **Hover Details**: Hover over any specific date cell (except the total row) to see the exact calculation details for that day.
+
+::: info Read-Only View
+This tab is for reporting purposes. To change these figures, you must either update the user's **Hourly Rate** (in the *Resource* tab) or adjust their **Time Logs** (in the project work items).
 :::
+
+## 6. Managing Project Expenses
+
+The **Expenses** tab is the master view for all project costs. It lists **Resource Costs** (aggregated from the previous tab) alongside other direct expenses (e.g., Software Licenses, Travel, Electricity).
+
+### Adding a New Expense
+1.  Click the **+ Create Expense** button.
+2.  In the modal, provide the details:
+    -   **Title**: A name for the expense (e.g., "Server Hosting").
+    -   **Expense Type**: Select a category (Note: These types are configured by administrators in the *Expense Type* admin page).
+    -   **Amount**: The cost of the item.
+    -   **Date**: When the expense was incurred.
+3.  Click **Save**.
+
+### Editing or Deleting Expenses via Timeline
+You can manage expenses directly from the timeline grid:
+1.  Locate the specific expense row and date column.
+2.  **Click on the date cell** containing the expense amount.
+3.  A modal will appear listing the expenses for that day.
+4.  Use the **Edit** (pencil) or **Delete** (trash can) icons within the modal to modify or remove the expense.
