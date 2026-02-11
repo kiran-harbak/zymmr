@@ -262,6 +262,7 @@ export default defineConfig({
           },
           { text: "OKR", link: "/administration/okr" },
           { text: "Forms", link: "/administration/forms" },
+          { text: "Expense Type", link: "/administration/expense-type" },
           { text: "Project Status", link: "/administration/project-status" },
           {
             text: "Leave Management",

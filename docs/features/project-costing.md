@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Project Costing in Zymmr
+# Project Costing
 
 ::: info Overview
 The Project Costing feature allows you to manage and track the financial health of your projects with precision. By combining fixed budgets, hourly resource rates, and direct expenses, Zymmr provides a real-time view of your "Total Consumed" versus "Budget Remaining."
