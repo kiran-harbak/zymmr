@@ -8,7 +8,7 @@ head:
 outline: deep
 ---
 
-# Expense Types
+# Expense Types 
 
 ::: info Overview
 The Expense Types feature, located in **Global Settings** ⚙️, allows administrators to define the standard categories used for tracking project costs. These types populate the dropdown options when users add expenses in the **Project Costing** module.
