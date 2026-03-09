@@ -95,6 +95,10 @@ export default defineConfig({
             link: "/projects/creating-projects",
           },
           {
+            text: "Documents",
+            link: "/projects/documents",
+          },
+          {
             text: "Adding Users",
             link: "/projects/adding-users",
           },
