@@ -1,89 +1,65 @@
 ---
-title: Zymmr Dashboard
-description: Understanding the Zymmr dashboard interface
+title: Your Dashboard
+description: A guide to the Zymmr personal dashboard, helping you track work items, monitor performance, and access your projects quickly.
 head:
   - - meta
     - name: keywords
-      content: dashboard, overview, zymmr
+      content: dashboard, home, overview, work items, performance, time tracking, zymmr
 outline: deep
 ---
 
-# Zymmr Dashboard
+# Your Dashboard
 
-## Overview
-
-The Zymmr Dashboard provides a centralized view of your work and project status. The dashboard helps users:
-
-- Access assigned projects quickly
-- Monitor performance metrics
-- Track work items efficiently
-- Identify overdue tasks
-- Manage ongoing work
-
-## Dashboard Sections
-
-### My Projects
-
-View projects by:
-
-- Project Key <small>(e.g. `ZMR`)</small>
-- Project Name <small>(e.g. `Zymmr`)</small>
-
-### Performance Metrics
-
-Track your performance over the last three months:
-
-- Completion rates
-- Task statistics
-- Productivity trends
-
-### Work Item Management
-
-#### Assigned to Me
-
-View all work items specifically assigned to you, containing:
-
-- Key <small>(e.g. `ZMR-123`)</small>
-- Type <small>(e.g. `Task`, `Bug`, `Story`)</small>
-- Status <small>(e.g. `To Do`, `In Progress`, `Done`)</small>
-- Title <small>(e.g. `Implement dashboard layout`)</small>
-
-#### Overdue Items
-
-Monitor delayed work items with:
-
-- Days overdue (highlighted in red)
-- Priority level
-- Due dates
-- Current status
-
-#### In Progress
-
-Track work items that are currently in progress:
-
-- **Key** <small>(e.g. `ZMR-234`)</small>
-- **Title** <small>(e.g. `Working on dashboard layout`)</small>
-
-## Navigation Features
-
-### Quick Access
-
-Each dashboard section provides:
-
-| Feature        | Description                      | Action     |
-| -------------- | -------------------------------- | ---------- |
-| Show More      | Expands list when items exceed 5 | Click link |
-| Work Item Key  | Opens detailed item view         | Click key  |
-| Status Updates | Real-time work item status       | Automatic  |
-
-::: tip Pro Tip
-Use the Work Item Key links to quickly access detailed information about specific tasks without navigating through multiple screens.
+::: info Overview
+The Dashboard is your personal command center in Zymmr. It provides an immediate, high-level overview of your workload, time estimate, and personal performance. Designed for interactivity, it allows you to drill down into specific lists and navigate quickly to the work that needs your attention.
 :::
 
-::: warning Important Notes
+## 1. Summary Metrics
 
-- The Zymmr dashboard is a static interface that automatically updates to reflect the latest changes.
-- Each section displays up to 5 items by default.
-- Use "Show More" to view additional items when available.
-- Overdue items are prominently highlighted in red for easy identification.
-  :::
+At the top of the dashboard, three key metric cards provide a snapshot of your current workload.
+
+| Card | Description | Interaction |
+| :--- | :--- | :--- |
+| **Completed Work Items** | Shows the number of work items you have finished in the **Last 30 Days**. | **Click the number** to navigate to the Search page, automatically filtered to show these completed items. |
+| **In Progress Work Items** | Displays the total count of work items currently assigned to you that are in progress. | **Click the number** to view the full list of your active tasks on the Search page. |
+| **Due Work Items** | Indicates how many work items assigned to you are currently due or overdue. | **Click the number** to jump to the Search page and triage these urgent items. |
+
+## 2. Performance and Time Tracking
+
+These visual charts help you understand your productivity trends and capacity.
+
+-   **Performance Chart**: A line graph tracking the volume of work items you have completed over recent months. This helps identify trends in your delivery speed.
+-   **Time Gauge**: A bar chart providing a comparison of your **Estimated** effort versus your **Logged** time and **Remaining** time for the immediate future (e.g., the current week). This is excellent for self-managing capacity.
+
+## 3. Projects Overview
+
+The **Projects** section lists the projects you are actively involved in.
+
+| Column | Description |
+| :--- | :--- |
+| **KEY** | The unique identifier for the project (e.g., `BTB`). |
+| **NAME** | The full name of the project. |
+| **TYPE** | The methodology used (e.g., `Scrum`, `Kanban`). |
+| **START/END DATE** | The planned timeline for the project. |
+
+::: tip Quick Navigation
+Clicking on a project's **KEY** (e.g., `BTB`) will take you directly to that project's **Backlog** page, allowing you to jump straight into planning.
+:::
+
+## 4. Work Item Lists
+
+The bottom half of the dashboard is dedicated to specific lists of tasks requiring your attention.
+
+### Overdue Work Items
+This list highlights items that have passed their due date.
+-   **Details**: Shows the Key, Type, Status, and a red tag indicating how many days the item is overdue.
+-   **Navigation**: Click the **Show All** link to open a filtered search view of all your overdue items.
+
+### In Progress Work Items
+This list displays the work you are currently tackling.
+-   **Details**: Includes the Title, Priority, Dates, and Time tracking details (Logged vs. Remaining).
+-   **Navigation**: Click the **Show All** link to manage your active workload on the search page.
+
+::: info Opening Work Items
+Throughout the dashboard (in both Overdue and In Progress lists), clicking on a **Work Item Key** (e.g., `BA-2627`) will open the work item's **Side View**. This allows you to edit details, log time, or add comments without leaving the dashboard.
+:::

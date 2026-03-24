@@ -1,10 +1,10 @@
 ---
 title: Filter Functionality in Zymmr
-description: Learn how to create, save, and manage complex filters with multiple conditions to refine your views in Zymmr.
+description: Learn how to create, save, and manage complex filters, including dynamic user filters, to refine your views in Zymmr.
 head:
   - - meta
     - name: keywords
-      content: filter, advanced search, query, operators, multiple conditions, zymmr
+      content: filter, advanced search, query, operators, multiple conditions, current user, zymmr
 outline: deep
 ---
 
@@ -21,6 +21,15 @@ The filter functionality in Zymmr is a powerful tool that allows you to refine y
 3.  **Select an Operator**: Choose the comparison operator that fits your needs (e.g., `Equals`, `In`, `Like`).
 4.  **Enter a Value**: Input or select the value to complete the condition.
 5.  **Add Multiple Conditions**: Click the "Add Condition" button and repeat the steps. Conditions are combined using the **AND** operator to narrow down your results.
+
+## Dynamic Values: Using "Current User"
+
+For fields that involve people (such as **Primary Assignee**, **Secondary Assignee**, or **Reporter**), Zymmr offers a dynamic value called **Current User**.
+
+When you select `Current User` as the value, the filter automatically evaluates to **whoever is currently logged in**.
+
+**Why use this?**
+This allows you to create a single, shared filter—like "My Active Tasks"—that works correctly for everyone on the team. When *Alice* views it, she sees Alice's tasks. When *Bob* views it, he sees Bob's tasks.
 
 ## Saving a Filter
 
@@ -56,10 +65,11 @@ To remove all active filter conditions and return to the default, unfiltered vie
 - **Condition 1**: `Priority` **Equals** `"High"`
 - **Condition 2**: `Start Date` **Is** `"2024-07-28"`
 
-### Example 3: A User's In-Progress Work
-- **Condition 1**: `Primary Assignee` **Equals** `"John Doe"`
+### Example 3: Dynamic "My Active Tasks" (Best Practice)
+This filter works for any user who clicks it.
+- **Condition 1**: `Primary Assignee` **Equals** `"Current User"`
 - **Condition 2**: `Status` **Equals** `"In Progress"`
 
 ::: tip Create Custom Views
-Save frequently used filters to create personalized views that streamline your daily workflow. This is perfect for quickly accessing tasks assigned to you or monitoring specific project components.
+Save frequently used filters to create personalized views that streamline your daily workflow. Using the **Current User** variable is the best way to create shared views that apply to the whole team.
 :::

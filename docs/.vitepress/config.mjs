@@ -95,6 +95,10 @@ export default defineConfig({
             link: "/projects/creating-projects",
           },
           {
+            text: "Documents",
+            link: "/projects/documents",
+          },
+          {
             text: "Adding Users",
             link: "/projects/adding-users",
           },
@@ -262,6 +266,7 @@ export default defineConfig({
           },
           { text: "OKR", link: "/administration/okr" },
           { text: "Forms", link: "/administration/forms" },
+          { text: "Expense Type", link: "/administration/expense-type" },
           { text: "Project Status", link: "/administration/project-status" },
           {
             text: "Leave Management",
