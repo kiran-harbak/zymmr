@@ -277,6 +277,10 @@ export default defineConfig({
             link: "/administration/global-admins",
           },
           {
+            text: "Project Creators",
+            link: "/administration/project-creators",
+          },
+          {
             text: "Work Item Events",
             link: "/administration/work-item-events",
           },

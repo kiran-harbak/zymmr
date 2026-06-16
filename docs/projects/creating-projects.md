@@ -10,7 +10,7 @@ head:
 # Creating a Project in Zymmr
 
 ::: info Quick Start
-Before you begin, make sure you have access to Zymmr and the necessary permissions to create projects.
+Before you begin, make sure you have access to Zymmr and the necessary permissions like **Project Creator** or **Global Admin** to create projects.
 :::
 
 ## Step-by-Step Guide
