@@ -179,6 +179,24 @@ export default defineConfig({
         ],
       },
       {
+        text: "Test Management",
+        collapsed: false,
+        items: [
+          {
+            text: "Test Cases",
+            link: "/test-management/test-cases",
+          },
+          {
+            text: "Test Executions",
+            link: "/test-management/test-executions",
+          },
+          {
+            text: "Executed",
+            link: "/test-management/executed",
+          },
+        ],
+      },
+      {
         text: "Features",
         collapsed: false,
         items: [
