@@ -16,10 +16,10 @@ Zymmr’s Gantt Chart report provides a comprehensive, interactive view of your 
 
 ## Key Features
 
--   **Interactive Task Creation**: Easily add new work items directly from the Gantt view.
+-   **Inline Task Creation**: Add new child work items directly below the selected row without leaving the Gantt view.
 -   **Filtering and Grouping**: Customize your view by filtering work items and grouping them by project, milestone, or release.
 -   **Multiple View Modes**: Adjust the timeline to a **day**, **week**, or **month** view to suit your planning horizon.
--   **Inline Editing**: Make quick changes to dates, duration, and assignees directly in the Gantt grid.
+-   **Inline Editing**: Make quick changes to dates, type, duration, and assignees directly in the Gantt grid.
 -   **Dynamic Controls**: Use features like fullscreen, timeline zoom, and row expand/collapse to manage your workspace.
 -   **Export Options**: Export your Gantt data to CSV or Excel for reporting and offline analysis.
 
@@ -31,19 +31,22 @@ Zymmr’s Gantt Chart report provides a comprehensive, interactive view of your 
 ## Interacting with the Gantt Chart
 
 ### Add Work Item
-Gantt provides an easy way to add work items for planning and scheduling tasks.
-
-#### From the Toolbar
-1.  (Optional) Click on a row to select it. The new work item will be created as a child of the selected row.
-2.  Click the **Add** button in the toolbar.
-3.  A popup modal will appear. Fill out the required information.
-4.  Click **Add** to create the work item.
+Gantt provides an inline way to add work items for planning and scheduling tasks.
 
 #### Inline (From a Row)
-1.  Hover your mouse over a work item's title in the grid. A plus (`+`) icon will appear.
-2.  Click the plus icon to add a new child work item.
-3.  Fill out the information in the popup modal.
-4.  Click **Add** to create the work item.
+1.  Hover your mouse over a work item row. A plus (`+`) icon will appear.
+2.  Click the plus icon to insert a new child work item row.
+3.  Enter the **Title**, **Type**, **Start Date**, and **End Date**.
+4.  Press **Enter** or click the checkmark (`✓`) to save the work item.
+5.  Press **Esc** or click the cross (`✕`) to cancel.
+
+:::: info Work Item Type
+The **Type** dropdown shows only the work item types assigned to the selected row's project.
+::::
+
+:::: info Date Selection
+The **End Date** cannot be earlier than the **Start Date**. When you choose a start date, the end date picker automatically moves forward to keep date selection smooth.
+::::
 
 ### Filter Work Items
 Filter the work items to focus on what's most important.
@@ -69,7 +72,10 @@ By default, work items are grouped by **Project**.
 ### Toolbar Controls
 
 #### View Modes
-Day, Week, and Month view modes are provided for ease of use, making it easier to manage the timeline. You can change the view mode by clicking one of the available options in the toolbar.
+Day, Week, and Month view modes are provided for ease of use, making it easier to manage the timeline. You can change the view mode by clicking one of the available options in the toolbar. The timeline automatically scrolls back to today after the view mode changes.
+
+#### Tasks View / Resource View
+Use **Tasks View** to focus on the work item hierarchy and **Resource View** to focus on assignee capacity. Tasks View gives more space to the grid, while Resource View gives more space to the timeline.
 
 #### Timeline Zoom
 Zoom options in the toolbar help you adjust the timeline's scale. Click the **Zoom In**, **Zoom Out**, or **Zoom to Fit** options to change the view.
@@ -97,9 +103,9 @@ You can export the current Gantt view data by clicking the **Export** button on 
 Zymmr's Gantt chart allows you to make quick adjustments directly in the grid, making it easy to manage tasks without leaving the view.
 
 #### Start / End Dates
-1.  **Double-click** the `Start Date` or `End Date` cell for the work item you wish to edit.
+1.  Click the `Start Date` or `End Date` cell for the work item you wish to edit.
 2.  Select a new date from the calendar picker.
-3.  Click outside the cell or press **Enter** to save the change.
+3.  The change is saved immediately, and the timeline updates in place.
 
 ::: info End Date Editing
 The `End Date` can only be edited directly for leaf work items (work items with no child work items). Parent work item dates are calculated from their children.
@@ -109,6 +115,11 @@ The `End Date` can only be edited directly for leaf work items (work items with 
 1.  **Double-click** the `Duration` cell for the work item.
 2.  Enter a new duration value.
 3.  Click outside the cell or press **Enter** to save.
+
+#### Type
+1.  Click the `Type` dropdown for the work item.
+2.  Select a new work item type from the project-specific list.
+3.  The change is saved immediately in the Gantt grid.
 
 #### Primary Assignee
 1.  **Click** on the `Primary Assignee` cell for the work item.
