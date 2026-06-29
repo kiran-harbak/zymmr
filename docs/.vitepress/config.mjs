@@ -325,6 +325,21 @@ export default defineConfig({
         ],
       },
       {
+        text: "Single Sign-On (SSO)",
+        collapsed: false,
+        items: [
+          { text: "Overview", link: "/sso/" },
+          { text: "Google Workspace", link: "/sso/google" },
+          { text: "Microsoft 365", link: "/sso/microsoft-365" },
+          { text: "Custom OIDC (Okta, Auth0)", link: "/sso/custom-oidc" },
+          { text: "LDAP", link: "/sso/ldap" },
+          { text: "Active Directory", link: "/sso/active-directory" },
+          { text: "SSO Settings (Allowed Domains)", link: "/sso/settings" },
+          { text: "Signing in with SSO", link: "/sso/signing-in" },
+          { text: "Troubleshooting", link: "/sso/troubleshooting" },
+        ],
+      },
+      {
         text: "Integrations",
         collapsed: false,
         items: [
