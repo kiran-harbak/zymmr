@@ -197,6 +197,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "Wiki",
+        collapsed: false,
+        items: [
+          {
+            text: "Spaces",
+            link: "/wiki/spaces",
+          },
+          {
+            text: "Pages",
+            link: "/wiki/pages",
+          },
+        ],
+      },
+      {
         text: "Features",
         collapsed: false,
         items: [
@@ -301,6 +315,14 @@ export default defineConfig({
           {
             text: "Work Item Events",
             link: "/administration/work-item-events",
+          },
+          {
+            text: "Wiki Spaces",
+            link: "/administration/wiki-spaces",
+          },
+          {
+            text: "Wiki Templates",
+            link: "/administration/wiki-templates",
           },
           {
             text: "License",
